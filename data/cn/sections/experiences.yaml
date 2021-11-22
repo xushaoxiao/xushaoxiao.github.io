@@ -1,6 +1,6 @@
 # section information
 section:
-  name: অভিজ্ঞতা
+  name: 履历
   id: experiences
   enable: true
   weight: 3
@@ -12,11 +12,11 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: ঢাকা ব্রাঞ্চ
+    name: Mthreads.com.
+    url: "https://www.mthreads.com"
+    location: Shanghai/China
     # company overview
-    overview: Example Co. হচ্ছে ক্লাউড নেটিভ ডেভেলপমেন্টের জন্যে একটি স্বীকৃত প্রতিষ্ঠান । এটি Kubernetes এর জন্যে বিভিন্ন সফটওয়্যার বানায়।
+    overview: 致力于打造可视化计算、人工智能和高性能计算的最佳平台。
   positions:
   - designation: সিনিয়র সফটওয়্যার ইঞ্জিনিয়ার
     start: Nov 2019

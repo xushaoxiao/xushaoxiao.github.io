@@ -11,19 +11,29 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://kubernetes.io/"
+- name: Java Development
+  logo: /images/sections/skills/java.png
+  summary: "Deep understanding of Java language, including collection, juc, Jvm, multi-threading, class loading, etc."
+  url: "https://dev.java/"
 
 - name: Go Development
   logo: /images/sections/skills/go.png
   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
   url: "https://golang.org/"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+  url: "https://git-scm.com/"
+
+- name: Kubernetes
+  logo: /images/sections/skills/kubernetes.png
+  summary: "Reserve skills, understand the components and design ideas of Kubernetes, lack practical experience and in-depth understanding of system design."
+  url: "https://kubernetes.io/"
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
@@ -35,15 +45,16 @@ skills:
   summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
   url: "https://prometheus.io/"
 
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+- name: Cloud Computing
+  logo: /images/sections/skills/cloud.png
+  summary: "Worked on Alibaba Cloud and Tencent Cloud."
 
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  url: "https://git-scm.com/"
+- name: Maven
+  logo: "/images/sections/skills/maven.png"
+  summary: "Proficient in designing lightweight Java service architecture based on Maven (pom.xml) based on Maven life cycle and plug-in integration,
+  and having experience in implementing large-scale micro-service-oriented Java architecture."
+  url: "https://maven.apache.org/"
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+# - name: C++
+#   logo: /images/sections/skills/c++.png
+#   summary: "Know basic C/C++ programming. Used for contest programming and problem solving."

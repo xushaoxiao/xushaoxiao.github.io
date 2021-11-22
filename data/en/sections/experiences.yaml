@@ -11,54 +11,58 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
+    name: Mthreads.com.
+    url: "https://www.mthreads.com"
+    location: Shanghai/China
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: Moore Threads, is committed to build the best platform for visual computing and multimedia processing.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Software Engineer
+    start: April 2021
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
-
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+    - Responsible for the design of back-end distributed service architecture.
+    - Specify strict code quality control specifications.
+    - Design, develop and manage cloud services, base on Java, Golang and Python.
+    - Code review and code traning.
+    - Accelerate the GPU development process.
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    name: Wacai.
+    url: "https://www.wacai.com/"
+    location: Shanghai/China
+    overview: An excellent internet finance company located in Hangzhou.
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: Senior Software Engineer
+    start: August 2019
+    end: March 2021
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Post-loan platform system research and development.
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    name: Quickron.
+    url: "http://www.flashhold.com/"
+    location: Shanghai/China&Wuhan/China
+    overview: Quicktron Intelligent Technology was established in 2014 and provides customers with system solutions based on intelligent robots, starting from the user’s business scene, through subversive industry concepts and highly integrated hardware and software products! Quicktron = Intelligent robot + Intelligent warehousing operation system.
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: Java Developer
+    start: Nov 2018
+    end: Aug 2019
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Engineer work at infrastructure team.
+    - Design and devlop for plugin services.
+
+- company:
+    name: BorderxLab Inc.
+    url: "https://www.borderxlab.com/"
+    location: Shanghai/China
+    overview: BorderX Lab lets any size company sell cross-border via it's innovative technology and social marketing. American and European brands can now easily sell to China and beyond via our popular e-commerce marketplaces.
+  positions:
+  - designation: Backend Engineer
+    start: June 2017
+    end: Oct 2018
+    responsibilities:
+    - Backend engineer, work for Bieyang App backend service, includes order, shopping and ugc.
+    - Design and develop a cross-border supply chain system for cross-border e-commerce, includes order access, Pay for customs clearance, Three-party logistics access, Timeliness monitoring and etc.

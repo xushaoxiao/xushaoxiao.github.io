@@ -1,6 +1,6 @@
 # section information
 section:
-  name: দক্ষতা
+  name: 技能
   id: skills
   enable: true
   weight: 2
@@ -12,39 +12,49 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: "/images/sections/skills/kubernetes.png"
-  summary: "আমি Kubernetes এ অ্যাপ্লিকেশান পরিচালনা করতে সক্ষম । আমার  Kubernetes এ CRD এর জন্য কন্ট্রোলার লিখার অভিজ্ঞতা আছে ।"
-  url: "https://kubernetes.io/"
+- name: Java Development
+  logo: /images/sections/skills/java.png
+  summary: "深入理解Java语言，包括集合、并发包、Jvm、多线程、类加载等。"
+  url: "https://dev.java/"
 
-- name: Go ডেভেলপমেন্ট
+- name: Go Development
   logo: "/images/sections/skills/go.png"
-  summary: "ডেভেলপমেন্টের জন্য প্রধান ভাষা হিসেবে ব্যবহার করছি। টেস্ট যোগ্য,  রক্ষণাবেক্ষণ যোগ্য কোড লিখতে সক্ষম।"
+  summary: "主要工作语言，编写可扩展、可测试、可维护的分布式程序。"
   url: "https://golang.org/"
 
-- name: ক্লাউড কম্পিউটিং
+- name: Linux
+  logo: "/images/sections/skills/linux.png"
+  summary: "主要工作环境，熟悉常用命令以及编写基础Bash/Shell脚本。"
+
+- name: Git
+  logo: "/images/sections/skills/git.png"
+  summary: "主要使用的代码管理工具，精通Git Commands，擅长规范的Git操作习惯。"
+  url: "https://git-scm.com/"
+
+- name: Kubernetes
+  logo: "/images/sections/skills/kubernetes.png"
+  summary: "储备技能，熟悉Kubernetes的组件以及设计思想，缺乏实战经验以及系统设计的深入理解。"
+  url: "https://kubernetes.io/"
+
+- name: 云计算
   logo: "/images/sections/skills/cloud.png"
-  summary: "GCP, AWS, Azure গুলোর মত বেশিরভাগ বড় বড় ক্লাউড নিয়ে কাজর অভিজ্ঞতা আছে।"
+  summary: "阿里云、腾讯云。"
 
 - name: Docker
   logo: "/images/sections/skills/docker.svg"
-  summary: "বেশির ভাগ প্রোগ্রামেরই  Docker কন্টেইনার তৈরি করি। মাল্টি স্টেজ এবং মাল্টি আর্কিটেকচার কন্টেইনার নিয়ে অভিজ্ঞতা আছে।"
+  summary: "熟悉OCI规范，理解容器技术的底层实现原理，包括cgroups、namespace、CNI等。"
   url: "https://www.docker.com/"
 
 - name: Prometheus
   logo: "/images/sections/skills/prometheus.png"
-  summary: "Prometheus metrics সেটআপ ও কনফিগার করতে সক্ষম। PromQL, AlertManager নিয়ে অভিজ্ঞতা আছে। Metric exporters লিখাতেও অভিজ্ঞতা আছে।"
+  summary: "集成Prometheus监控工具，收集服务以及系统监控指标。"
   url: "https://prometheus.io/"
 
-- name: লিনাক্স
-  logo: "/images/sections/skills/linux.png"
-  summary: "প্রধান অপারেটিং সিস্টেম হিসেবে ব্যবহার করছি। bash/shell scripts লিখতে সক্ষম।"
+- name: Maven
+  logo: "/images/sections/skills/maven.png"
+  summary: "精通基于Maven生命周期以及插件集成完成Java基于Maven（pom.xml）设计轻量级的Java服务架构，具备大型微服务化Java架构落地经验。"
+  url: "https://maven.apache.org/"
 
-- name: গিট
-  logo: "/images/sections/skills/git.png"
-  summary: "গিট ভিত্তিক ডেভেলপমেন্টের অভিজ্ঞতা আছে। বেশির ভাগ ক্ষেতরেই GitHub ব্যবহার করি তবে GitLab ব্যবহারেরও অভিজ্ঞতা আছে।"
-  url: "https://git-scm.com/"
-
-- name: C++
-  logo: "/images/sections/skills/c++.png"
-  summary: "বেসিক C/C++ প্রোগ্রামিং জানি । প্রব্লেম সল্ভিং এবং কন্টেস্ট এর জন্য ব্যবহার করেছি।"
+# - name: C++
+#   logo: "/images/sections/skills/c++.png"
+#   summary: "c++"

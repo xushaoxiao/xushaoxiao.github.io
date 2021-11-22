@@ -1,6 +1,6 @@
 # section information
 section:
-  name: অর্জনসমূহ
+  name: 归档
   id: achievements
   enable: true
   weight: 8
