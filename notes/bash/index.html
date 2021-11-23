@@ -1,6 +1,6 @@
 <!doctype html><html>
 <head>
-<title>ব্যাশের নোট সমূহ</title>
+<title>Bash Notes</title>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta http-equiv=x-ua-compatible content="ie=edge">
@@ -12,10 +12,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel=stylesheet>
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css>
 <link rel=icon type=image/png href=/images/site/icon_hud571e8d7687646b86ab42910746f87d4_262011_42x0_resize_box_3.png>
-<meta property="og:title" content="ব্যাশের নোট সমূহ">
-<meta property="og:description" content="Bash Notes ">
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://xushaoxiao.github.io/notes/bash/"><meta property="article:section" content="notes">
+<meta property="og:title" content="Bash Notes">
+<meta property="og:description" content>
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://xushaoxiao.github.io/notes/bash/">
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css>
 <link rel=stylesheet href=/css/layouts/notes.css>
 <link rel=stylesheet href=/css/navigators/sidebar.css>
@@ -31,7 +31,7 @@
 </button>
 <a class=navbar-brand href=/>
 <img src=/images/site/icon_hud571e8d7687646b86ab42910746f87d4_262011_42x0_resize_box_3.png alt=Logo>
-Eden</a>
+Tech Lake</a>
 <button class="navbar-toggler navbar-light" id=toc-toggler type=button onclick=toggleTOC()>
 <span class=navbar-toggler-icon></span>
 </button>
@@ -57,25 +57,25 @@ Eden</a>
 <i class="fas fa-plus-circle"></i><a href=/notes/go/>Go</a>
 <ul>
 <li>
-<i class="fas fa-plus-circle"></i><a href=/notes/go/basic/>বেসিক</a>
+<i class="fas fa-plus-circle"></i><a href=/notes/go/basic/>Basics</a>
 <ul>
 <li><a href=/notes/go/basic/introduction/ title=পরিচিতি>পরিচিতি</a></li>
-<li><a href=/notes/go/basic/types/ title="বেসিক টাইপ সমূহ">বেসিক টাইপ সমূহ</a></li>
+<li><a href=/notes/go/basic/types/ title="Basic Types">Basic Types</a></li>
 <li><a href=/notes/go/basic/flow-control/ title="Flow Control">Flow Control</a></li>
 </ul>
 </li>
 <li>
-<i class="fas fa-plus-circle"></i><a href=/notes/go/advanced/>অ্যাডভান্সড</a>
+<i class="fas fa-plus-circle"></i><a href=/notes/go/advanced/>Advanced</a>
 <ul>
-<li><a href=/notes/go/advanced/files/ title="ফাইল ম্যানিপুলেশন">ফাইল ম্যানিপুলেশন</a></li>
+<li><a href=/notes/go/advanced/files/ title="File Manipulation">File Manipulation</a></li>
 </ul>
 </li>
 </ul>
 </li>
 <li>
-<i class="fas fa-minus-circle"></i><a class=active href=/notes/bash/>ব্যাশ</a>
+<i class="fas fa-minus-circle"></i><a class=active href=/notes/bash/>Bash</a>
 <ul class=active>
-<li><a href=/notes/bash/basic/ title=ভেরিয়েবল>ভেরিয়েবল</a></li>
+<li><a href=/notes/bash/basic/ title=Variables>Variables</a></li>
 </ul>
 </li>
 </div>
@@ -87,7 +87,33 @@ Eden</a>
 <section class=content-section id=content-section>
 <div class="content container-fluid" id=content>
 <div class="container-fluid note-card-holder" id=note-card-holder>
-<h1 id=bash-notes>Bash Notes</h1>
+<div class=note-card>
+<div class=item>
+<h5 class=note-title><span>Variable</span></h5>
+<div class=card>
+<div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>NAME<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;John&#34;</span>
+echo $NAME
+echo <span style=color:#e6db74>&#34;</span>$NAME<span style=color:#e6db74>&#34;</span>
+echo <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>NAME<span style=color:#e6db74>}</span><span style=color:#e6db74>
+</span></code></pre></div></div>
+</div>
+</div>
+</div>
+<div class=note-card>
+<div class=item>
+<h5 class=note-title><span>Condition</span></h5>
+<div class=card>
+<div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=color:#66d9ef>if</span> <span style=color:#f92672>[[</span> -z <span style=color:#e6db74>&#34;</span>$string<span style=color:#e6db74>&#34;</span> <span style=color:#f92672>]]</span>; <span style=color:#66d9ef>then</span>
+  echo <span style=color:#e6db74>&#34;String is empty&#34;</span>
+<span style=color:#66d9ef>elif</span> <span style=color:#f92672>[[</span> -n <span style=color:#e6db74>&#34;</span>$string<span style=color:#e6db74>&#34;</span> <span style=color:#f92672>]]</span>; <span style=color:#66d9ef>then</span>
+  echo <span style=color:#e6db74>&#34;String is not empty&#34;</span>
+<span style=color:#66d9ef>fi</span>
+</code></pre></div></div>
+</div>
+</div>
+</div>
+</div>
+<div class=paginator>
 </div>
 </div>
 </section>
@@ -130,16 +156,6 @@ Eden</a>
 <li><span>Email: </span> <span>lancexu.hello@gmail.com</span></li>
 <li><span>Phone: </span> <span>+86 13554225105</span></li>
 </ul>
-</div>
-<div class="col-md-4 col-sm-12">
-<p>Stay up to date with email notification</p>
-<form action="https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;amp;id=094a24c76e" method=post id=mc-embedded-subscribe-form name=mc-embedded-subscribe-form class=validate target=_blank novalidate>
-<div class=form-group>
-<input type=email class=form-control id=mce-EMAIL name=EMAIL aria-describedby=emailHelp placeholder="Enter email">
-<small id=emailHelp class="form-text text-muted">By entering your email address, you agree to receive the newsletter of this website.</small>
-</div>
-<button type=submit class="btn btn-info">Submit</button>
-</form>
 </div>
 </div>
 </div>
