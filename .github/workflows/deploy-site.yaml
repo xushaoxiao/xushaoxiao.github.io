@@ -33,5 +33,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           # external_repository: xushaoxiao/xushaoxiao.github.io
           publish_dir: ./public
-          publish_branch: main
+          publish_branch: deploy
           cname: xushaoxiao.io
