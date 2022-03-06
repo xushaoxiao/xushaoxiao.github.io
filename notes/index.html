@@ -1,7 +1,6 @@
 <!doctype html><html>
 <head>
-<title>EngDoc</title>
-<meta charset=utf-8>
+<title>EngDoc</title><meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta http-equiv=x-ua-compatible content="ie=edge">
 <link rel=stylesheet href=/css/bootstrap.min.css>
@@ -9,7 +8,8 @@
 <link rel=stylesheet href=/css/navigators/navbar.css>
 <link rel=stylesheet href=/css/plyr.css>
 <link rel=stylesheet href=/css/flag-icon.min.css>
-<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel=stylesheet>
+<link rel=stylesheet href=/css/katex.min.css>
+<link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600">
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css>
 <link rel=icon type=image/png href=/images/site/icon_hud571e8d7687646b86ab42910746f87d4_262011_42x0_resize_box_3.png>
 <meta property="og:title" content="EngDoc">
@@ -19,10 +19,9 @@
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css>
 <link rel=stylesheet href=/css/layouts/notes.css>
 <link rel=stylesheet href=/css/navigators/sidebar.css>
-<script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga('create','UA-122321624-2','auto'),ga('send','pageview'))</script>
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-122321624-2","auto"),ga("send","pageview"))</script>
 <script async src=https://www.google-analytics.com/analytics.js></script>
-</head>
-<body data-spy=scroll data-target=#TableOfContents data-offset=80>
+</head><body data-spy=scroll data-target=#TableOfContents data-offset=80>
 <div class="container-fluid bg-dimmed wrapper">
 <nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
 <div class=container>
@@ -37,202 +36,105 @@ Tech Lake</a>
 </button>
 <div class="collapse navbar-collapse lang-selector" id=top-nav-items>
 <ul class="navbar-nav ml-auto">
-</ul>
-</div>
-</div>
-<img src=/images/site/icon_hud571e8d7687646b86ab42910746f87d4_262011_42x0_resize_box_3.png class=d-none id=main-logo alt=Logo>
+</ul></div></div><img src=/images/site/icon_hud571e8d7687646b86ab42910746f87d4_262011_42x0_resize_box_3.png class=d-none id=main-logo alt=Logo>
 <img src=/images/site/icon_hud571e8d7687646b86ab42910746f87d4_262011_42x0_resize_box_3.png class=d-none id=inverted-logo alt="Inverted Logo">
-</nav>
-<section class=sidebar-section id=sidebar-section>
+</nav><section class=sidebar-section id=sidebar-section>
 <div class=sidebar-holder>
 <div class=sidebar id=sidebar>
 <form class=mx-auto method=get action=/search>
 <input type=text name=keyword placeholder=Search data-search id=search-box>
-</form>
-<div class=sidebar-tree>
+</form><div class=sidebar-tree>
 <ul class=tree id=tree>
-<li id=list-heading><a href=/notes data-filter=all>Notes</a></li>
-<div class=subtree>
+<li id=list-heading><a href=/notes data-filter=all>Notes</a></li><div class=subtree>
 <li>
 <i class="fas fa-plus-circle"></i><a href=/notes/go/>Go</a>
 <ul>
 <li>
 <i class="fas fa-plus-circle"></i><a href=/notes/go/basic/>Basics</a>
 <ul>
-<li><a href=/notes/go/basic/introduction/ title=পরিচিতি>পরিচিতি</a></li>
-<li><a href=/notes/go/basic/types/ title="Basic Types">Basic Types</a></li>
-<li><a href=/notes/go/basic/flow-control/ title="Flow Control">Flow Control</a></li>
-</ul>
-</li>
-<li>
+<li><a href=/notes/go/basic/introduction/ title=পরিচিতি>পরিচিতি</a></li><li><a href=/notes/go/basic/types/ title="Basic Types">Basic Types</a></li><li><a href=/notes/go/basic/flow-control/ title="Flow Control">Flow Control</a></li></ul></li><li>
 <i class="fas fa-plus-circle"></i><a href=/notes/go/advanced/>Advanced</a>
 <ul>
-<li><a href=/notes/go/advanced/files/ title="File Manipulation">File Manipulation</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
+<li><a href=/notes/go/advanced/files/ title="File Manipulation">File Manipulation</a></li></ul></li></ul></li><li>
 <i class="fas fa-plus-circle"></i><a href=/notes/learning/>Learning</a>
 <ul>
-<li><a href=/notes/learning/english/english_grammer/ title="English Grammer">English Grammer</a></li>
-</ul>
-</li>
-<li><a href=/notes/rust/ title=Rust>Rust</a></li>
-<li>
+<li><a href=/notes/learning/english/english_grammer/ title="English Grammer">English Grammer</a></li></ul></li><li><a href=/notes/rust/ title=Rust>Rust</a></li><li>
 <i class="fas fa-plus-circle"></i><a href=/notes/bash/>Bash</a>
 <ul>
-<li><a href=/notes/bash/basic/ title=Variables>Variables</a></li>
-</ul>
-</li>
-</div>
-</ul>
-</div>
-</div>
-</div>
-</section>
-<section class=content-section id=content-section>
+<li><a href=/notes/bash/basic/ title=Variables>Variables</a></li></ul></li></div></ul></div></div></div></section><section class=content-section id=content-section>
 <div class="content container-fluid" id=content>
 <div class="container-fluid note-card-holder" id=note-card-holder>
 <div class=note-card>
 <div class=item>
-<h5 class=note-title><span>Hello World</span></h5>
-<div class=card>
-<div class=card-body><p>A sample go program is show here.</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=color:#f92672>package</span> <span style=color:#a6e22e>main</span>
-
-<span style=color:#f92672>import</span> <span style=color:#e6db74>&#34;fmt&#34;</span>
-
-<span style=color:#66d9ef>func</span> <span style=color:#a6e22e>main</span>() {
-  <span style=color:#a6e22e>message</span> <span style=color:#f92672>:=</span> <span style=color:#a6e22e>greetMe</span>(<span style=color:#e6db74>&#34;world&#34;</span>)
-  <span style=color:#a6e22e>fmt</span>.<span style=color:#a6e22e>Println</span>(<span style=color:#a6e22e>message</span>)
-}
-
-<span style=color:#66d9ef>func</span> <span style=color:#a6e22e>greetMe</span>(<span style=color:#a6e22e>name</span> <span style=color:#66d9ef>string</span>) <span style=color:#66d9ef>string</span> {
-  <span style=color:#66d9ef>return</span> <span style=color:#e6db74>&#34;Hello, &#34;</span> <span style=color:#f92672>+</span> <span style=color:#a6e22e>name</span> <span style=color:#f92672>+</span> <span style=color:#e6db74>&#34;!&#34;</span>
-}
-</code></pre></div><p>Run the program as below:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ go run hello.go
-</code></pre></div></div>
-</div>
-</div>
-</div>
-<div class=note-card>
+<h5 class=note-title><span>Hello World</span></h5><div class=card>
+<div class=card-body><p>A sample go program is show here.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=display:flex><span><span style=color:#f92672>package</span> <span style=color:#a6e22e>main</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>import</span> <span style=color:#e6db74>&#34;fmt&#34;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>func</span> <span style=color:#a6e22e>main</span>() {
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>message</span> <span style=color:#f92672>:=</span> <span style=color:#a6e22e>greetMe</span>(<span style=color:#e6db74>&#34;world&#34;</span>)
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>fmt</span>.<span style=color:#a6e22e>Println</span>(<span style=color:#a6e22e>message</span>)
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>func</span> <span style=color:#a6e22e>greetMe</span>(<span style=color:#a6e22e>name</span> <span style=color:#66d9ef>string</span>) <span style=color:#66d9ef>string</span> {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>return</span> <span style=color:#e6db74>&#34;Hello, &#34;</span> <span style=color:#f92672>+</span> <span style=color:#a6e22e>name</span> <span style=color:#f92672>+</span> <span style=color:#e6db74>&#34;!&#34;</span>
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p>Run the program as below:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>$ go run hello.go
+</span></span></code></pre></div></div></div></div></div><div class=note-card>
 <div class=item>
-<h5 class=note-title><span>Variables</span></h5>
-<div class=card>
-<div class=card-body><p><strong>Normal Declaration:</strong></p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=color:#66d9ef>var</span> <span style=color:#a6e22e>msg</span> <span style=color:#66d9ef>string</span>
-<span style=color:#a6e22e>msg</span> = <span style=color:#e6db74>&#34;Hello&#34;</span>
-</code></pre></div><p><strong>Shortcut:</strong></p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=color:#a6e22e>msg</span> <span style=color:#f92672>:=</span> <span style=color:#e6db74>&#34;Hello&#34;</span>
-</code></pre></div></div>
-</div>
-</div>
-</div>
-<div class=note-card>
+<h5 class=note-title><span>Variables</span></h5><div class=card>
+<div class=card-body><p><strong>Normal Declaration:</strong></p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=display:flex><span><span style=color:#66d9ef>var</span> <span style=color:#a6e22e>msg</span> <span style=color:#66d9ef>string</span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>msg</span> = <span style=color:#e6db74>&#34;Hello&#34;</span>
+</span></span></code></pre></div><p><strong>Shortcut:</strong></p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=display:flex><span><span style=color:#a6e22e>msg</span> <span style=color:#f92672>:=</span> <span style=color:#e6db74>&#34;Hello&#34;</span>
+</span></span></code></pre></div></div></div></div></div><div class=note-card>
 <div class=item>
-<h5 class=note-title><span>Constants</span></h5>
-<div class=card>
-<div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=color:#66d9ef>const</span> <span style=color:#a6e22e>Phi</span> = <span style=color:#ae81ff>1.618</span>
-</code></pre></div></div>
-</div>
-</div>
-</div>
-<div class=note-card>
+<h5 class=note-title><span>Constants</span></h5><div class=card>
+<div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=display:flex><span><span style=color:#66d9ef>const</span> <span style=color:#a6e22e>Phi</span> = <span style=color:#ae81ff>1.618</span>
+</span></span></code></pre></div></div></div></div></div><div class=note-card>
 <div class=item>
-<h5 class=note-title><span>Strings</span></h5>
-<div class=card>
-<div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=color:#a6e22e>str</span> <span style=color:#f92672>:=</span> <span style=color:#e6db74>&#34;Hello&#34;</span>
-</code></pre></div><p>Multiline string</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=color:#a6e22e>str</span> <span style=color:#f92672>:=</span> <span style=color:#e6db74>`Multiline
-</span><span style=color:#e6db74>string`</span>
-</code></pre></div></div>
-</div>
-</div>
-</div>
-<div class=note-card>
+<h5 class=note-title><span>Strings</span></h5><div class=card>
+<div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=display:flex><span><span style=color:#a6e22e>str</span> <span style=color:#f92672>:=</span> <span style=color:#e6db74>&#34;Hello&#34;</span>
+</span></span></code></pre></div><p>Multiline string</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=display:flex><span><span style=color:#a6e22e>str</span> <span style=color:#f92672>:=</span> <span style=color:#e6db74>`Multiline
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>string`</span>
+</span></span></code></pre></div></div></div></div></div><div class=note-card>
 <div class=item>
-<h5 class=note-title><span>Numbers</span></h5>
-<div class=card>
-<div class=card-body><p>Typical types</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=color:#a6e22e>num</span> <span style=color:#f92672>:=</span> <span style=color:#ae81ff>3</span>          <span style=color:#75715e>// int
-</span><span style=color:#75715e></span><span style=color:#a6e22e>num</span> <span style=color:#f92672>:=</span> <span style=color:#ae81ff>3.</span>         <span style=color:#75715e>// float64
-</span><span style=color:#75715e></span><span style=color:#a6e22e>num</span> <span style=color:#f92672>:=</span> <span style=color:#ae81ff>3</span> <span style=color:#f92672>+</span> <span style=color:#ae81ff>4i</span>     <span style=color:#75715e>// complex128
-</span><span style=color:#75715e></span><span style=color:#a6e22e>num</span> <span style=color:#f92672>:=</span> byte(<span style=color:#e6db74>&#39;a&#39;</span>)  <span style=color:#75715e>// byte (alias for uint8)
-</span></code></pre></div><p>Other Types</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=color:#66d9ef>var</span> <span style=color:#a6e22e>u</span> <span style=color:#66d9ef>uint</span> = <span style=color:#ae81ff>7</span>        <span style=color:#75715e>// uint (unsigned)
-</span><span style=color:#75715e></span><span style=color:#66d9ef>var</span> <span style=color:#a6e22e>p</span> <span style=color:#66d9ef>float32</span> = <span style=color:#ae81ff>22.7</span>  <span style=color:#75715e>// 32-bit float
-</span></code></pre></div></div>
-</div>
-</div>
-</div>
-<div class=note-card>
+<h5 class=note-title><span>Numbers</span></h5><div class=card>
+<div class=card-body><p>Typical types</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=display:flex><span><span style=color:#a6e22e>num</span> <span style=color:#f92672>:=</span> <span style=color:#ae81ff>3</span>          <span style=color:#75715e>// int
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#a6e22e>num</span> <span style=color:#f92672>:=</span> <span style=color:#ae81ff>3.</span>         <span style=color:#75715e>// float64
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#a6e22e>num</span> <span style=color:#f92672>:=</span> <span style=color:#ae81ff>3</span> <span style=color:#f92672>+</span> <span style=color:#ae81ff>4i</span>     <span style=color:#75715e>// complex128
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#a6e22e>num</span> <span style=color:#f92672>:=</span> byte(<span style=color:#e6db74>&#39;a&#39;</span>)  <span style=color:#75715e>// byte (alias for uint8)
+</span></span></span></code></pre></div><p>Other Types</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=display:flex><span><span style=color:#66d9ef>var</span> <span style=color:#a6e22e>u</span> <span style=color:#66d9ef>uint</span> = <span style=color:#ae81ff>7</span>        <span style=color:#75715e>// uint (unsigned)
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#66d9ef>var</span> <span style=color:#a6e22e>p</span> <span style=color:#66d9ef>float32</span> = <span style=color:#ae81ff>22.7</span>  <span style=color:#75715e>// 32-bit float
+</span></span></span></code></pre></div></div></div></div></div><div class=note-card>
 <div class=item>
-<h5 class=note-title><span>Arrays</span></h5>
-<div class=card>
-<div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=color:#75715e>// var numbers [5]int
-</span><span style=color:#75715e></span><span style=color:#a6e22e>numbers</span> <span style=color:#f92672>:=</span> [<span style=color:#f92672>...</span>]<span style=color:#66d9ef>int</span>{<span style=color:#ae81ff>0</span>, <span style=color:#ae81ff>0</span>, <span style=color:#ae81ff>0</span>, <span style=color:#ae81ff>0</span>, <span style=color:#ae81ff>0</span>}
-</code></pre></div></div>
-</div>
-</div>
-</div>
-<div class="note-card medium-note">
+<h5 class=note-title><span>Arrays</span></h5><div class=card>
+<div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=display:flex><span><span style=color:#75715e>// var numbers [5]int
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#a6e22e>numbers</span> <span style=color:#f92672>:=</span> [<span style=color:#f92672>...</span>]<span style=color:#66d9ef>int</span>{<span style=color:#ae81ff>0</span>, <span style=color:#ae81ff>0</span>, <span style=color:#ae81ff>0</span>, <span style=color:#ae81ff>0</span>, <span style=color:#ae81ff>0</span>}
+</span></span></code></pre></div></div></div></div></div><div class="note-card medium-note">
 <div class=item>
-<h5 class=note-title><span>Pointers</span></h5>
-<div class=card>
-<div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=color:#66d9ef>func</span> <span style=color:#a6e22e>main</span> () {
-  <span style=color:#a6e22e>b</span> <span style=color:#f92672>:=</span> <span style=color:#f92672>*</span><span style=color:#a6e22e>getPointer</span>()
-  <span style=color:#a6e22e>fmt</span>.<span style=color:#a6e22e>Println</span>(<span style=color:#e6db74>&#34;Value is&#34;</span>, <span style=color:#a6e22e>b</span>)
-</code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=color:#66d9ef>func</span> <span style=color:#a6e22e>getPointer</span> () (<span style=color:#a6e22e>myPointer</span> <span style=color:#f92672>*</span><span style=color:#66d9ef>int</span>) {
-  <span style=color:#a6e22e>a</span> <span style=color:#f92672>:=</span> <span style=color:#ae81ff>234</span>
-  <span style=color:#66d9ef>return</span> <span style=color:#f92672>&amp;</span><span style=color:#a6e22e>a</span>
-</code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=color:#a6e22e>a</span> <span style=color:#f92672>:=</span> new(<span style=color:#66d9ef>int</span>)
-<span style=color:#f92672>*</span><span style=color:#a6e22e>a</span> = <span style=color:#ae81ff>234</span>
-</code></pre></div><p>Pointers point to a memory location of a variable. Go is fully garbage-collected.</p>
-</div>
-</div>
-</div>
-</div>
-<div class=note-card>
+<h5 class=note-title><span>Pointers</span></h5><div class=card>
+<div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=display:flex><span><span style=color:#66d9ef>func</span> <span style=color:#a6e22e>main</span> () {
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>b</span> <span style=color:#f92672>:=</span> <span style=color:#f92672>*</span><span style=color:#a6e22e>getPointer</span>()
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>fmt</span>.<span style=color:#a6e22e>Println</span>(<span style=color:#e6db74>&#34;Value is&#34;</span>, <span style=color:#a6e22e>b</span>)
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=display:flex><span><span style=color:#66d9ef>func</span> <span style=color:#a6e22e>getPointer</span> () (<span style=color:#a6e22e>myPointer</span> <span style=color:#f92672>*</span><span style=color:#66d9ef>int</span>) {
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>a</span> <span style=color:#f92672>:=</span> <span style=color:#ae81ff>234</span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>return</span> <span style=color:#f92672>&amp;</span><span style=color:#a6e22e>a</span>
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=display:flex><span><span style=color:#a6e22e>a</span> <span style=color:#f92672>:=</span> new(<span style=color:#66d9ef>int</span>)
+</span></span><span style=display:flex><span><span style=color:#f92672>*</span><span style=color:#a6e22e>a</span> = <span style=color:#ae81ff>234</span>
+</span></span></code></pre></div><p>Pointers point to a memory location of a variable. Go is fully garbage-collected.</p></div></div></div></div><div class=note-card>
 <div class=item>
-<h5 class=note-title><span>Type Conversion</span></h5>
-<div class=card>
-<div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=color:#a6e22e>i</span> <span style=color:#f92672>:=</span> <span style=color:#ae81ff>2</span>
-<span style=color:#a6e22e>f</span> <span style=color:#f92672>:=</span> float64(<span style=color:#a6e22e>i</span>)
-<span style=color:#a6e22e>u</span> <span style=color:#f92672>:=</span> uint(<span style=color:#a6e22e>i</span>)
-</code></pre></div></div>
-</div>
-</div>
-</div>
-<div class=note-card>
+<h5 class=note-title><span>Type Conversion</span></h5><div class=card>
+<div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=display:flex><span><span style=color:#a6e22e>i</span> <span style=color:#f92672>:=</span> <span style=color:#ae81ff>2</span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>f</span> <span style=color:#f92672>:=</span> float64(<span style=color:#a6e22e>i</span>)
+</span></span><span style=display:flex><span><span style=color:#a6e22e>u</span> <span style=color:#f92672>:=</span> uint(<span style=color:#a6e22e>i</span>)
+</span></span></code></pre></div></div></div></div></div><div class=note-card>
 <div class=item>
-<h5 class=note-title><span>Slice</span></h5>
-<div class=card>
-<div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=color:#a6e22e>slice</span> <span style=color:#f92672>:=</span> []<span style=color:#66d9ef>int</span>{<span style=color:#ae81ff>2</span>, <span style=color:#ae81ff>3</span>, <span style=color:#ae81ff>4</span>}
-</code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=color:#a6e22e>slice</span> <span style=color:#f92672>:=</span> []byte(<span style=color:#e6db74>&#34;Hello&#34;</span>)
-</code></pre></div></div>
-</div>
-</div>
-</div>
-<h1 id=grammer>Grammer</h1>
-<p>Grammer study.</p>
-<p>Contents：</p>
-<ul>
-<li>五大基本概念</li>
-<li>五大基本句型</li>
-<li>并列句的起源与本质</li>
-<li>名词性从句的起源于本质</li>
-<li>形容词性从句（定语从句）的起源于本质</li>
-<li>副词型从句（状语从句）的起源于本质</li>
-<li>长难句必杀技一 ———— “左二右六原则”</li>
-<li>长难句必杀技二 ———— “悬挂结构”</li>
-<li>四大特殊句型：强调句；倒装句；虚拟语气；独立主格</li>
-<li>时态轴 ———— 英语时态的秘密</li>
-</ul>
-<hr>
-<h2 id=五大基本概念>五大基本概念</h2>
-<pre tabindex=0><code class=language-mermaid data-lang=mermaid>graph LR;
+<h5 class=note-title><span>Slice</span></h5><div class=card>
+<div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=display:flex><span><span style=color:#a6e22e>slice</span> <span style=color:#f92672>:=</span> []<span style=color:#66d9ef>int</span>{<span style=color:#ae81ff>2</span>, <span style=color:#ae81ff>3</span>, <span style=color:#ae81ff>4</span>}
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=display:flex><span><span style=color:#a6e22e>slice</span> <span style=color:#f92672>:=</span> []byte(<span style=color:#e6db74>&#34;Hello&#34;</span>)
+</span></span></code></pre></div></div></div></div></div><h1 id=grammer>Grammer</h1><p>Grammer study.</p><p>Contents：</p><ul>
+<li>五大基本概念</li><li>五大基本句型</li><li>并列句的起源与本质</li><li>名词性从句的起源于本质</li><li>形容词性从句（定语从句）的起源于本质</li><li>副词型从句（状语从句）的起源于本质</li><li>长难句必杀技一 ———— “左二右六原则”</li><li>长难句必杀技二 ———— “悬挂结构”</li><li>四大特殊句型：强调句；倒装句；虚拟语气；独立主格</li><li>时态轴 ———— 英语时态的秘密</li></ul><hr>
+<h2 id=五大基本概念>五大基本概念</h2><pre tabindex=0><code class=language-mermaid data-lang=mermaid>graph LR;
     五大基本概念 --&gt; 主语;
     五大基本概念 --&gt; 谓语;
     五大基本概念 --&gt; 宾语;
@@ -246,12 +148,9 @@ Tech Lake</a>
 </code></pre><ol>
 <li>
 <p>主语
-放在谓语动词之前的成分就叫做主语。</p>
-</li>
-<li>
+放在谓语动词之前的成分就叫做主语。</p></li><li>
 <p>谓语
-谓语就是动词，动词主要分为<code>实意动词</code>和<code>系动词</code></p>
-<pre tabindex=0><code class=language-mermaid data-lang=mermaid>graph LR;
+谓语就是动词，动词主要分为<code>实意动词</code>和<code>系动词</code></p><pre tabindex=0><code class=language-mermaid data-lang=mermaid>graph LR;
     谓语动词 --&gt; 1.实意动词;
     谓语动词 --&gt; 2.系动词;
     谓语动词 --&gt; 3.助动词;
@@ -262,185 +161,65 @@ Tech Lake</a>
     3.助动词 --&gt; be,have,has,had,do,did;
     4.情态动词 --&gt; can,may,must,should,would;
 </code></pre><ol>
-<li>实意动词：具备实际动作意义</li>
-<li>系动词
+<li>实意动词：具备实际动作意义</li><li>系动词
 <ol>
-<li>be动词包含：is am are was were</li>
-<li>和be功能一样的动词</li>
-</ol>
-</li>
-<li>助动词包含：be、has、hava、had、do、did（时态语态相关）</li>
-<li>情态动词包含：can、may、must、should、would</li>
-</ol>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-text data-lang=text>例句：
-1. I love you.
-2. To see is to believe.
-3. The flower smells great.
-4. Being able to love you is the happest thing in this world.
-</code></pre></div></li>
-<li>
+<li>be动词包含：is am are was were</li><li>和be功能一样的动词</li></ol></li><li>助动词包含：be、has、hava、had、do、did（时态语态相关）</li><li>情态动词包含：can、may、must、should、would</li></ol><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-text data-lang=text><span style=display:flex><span>例句：
+</span></span><span style=display:flex><span>1. I love you.
+</span></span><span style=display:flex><span>2. To see is to believe.
+</span></span><span style=display:flex><span>3. The flower smells great.
+</span></span><span style=display:flex><span>4. Being able to love you is the happest thing in this world.
+</span></span></code></pre></div></li><li>
 <p>宾语
-放在实意动词之后的成分就叫做宾语。</p>
-</li>
-<li>
+放在实意动词之后的成分就叫做宾语。</p></li><li>
 <p>表语
-放在系动词之后的成分就叫做表语。</p>
-</li>
-<li>
+放在系动词之后的成分就叫做表语。</p></li><li>
 <p>宾补
-补充说明宾语的成分就叫做宾补。</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-text data-lang=text>1. I find you beautiful.
-2. I consider him a liar.
-3. I hear her signing.
-</code></pre></div><blockquote>
-<p>Tip：</p>
-<blockquote>
-<p>如果宾语和宾语之后的成分加be动词后能够构成一个逻辑完整的句子，则宾语之后的成分为宾补。</p>
-</blockquote>
-</blockquote>
-<p>思维导图：</p>
-<pre tabindex=0><code class=language-mermaid data-lang=mermaid>graph LR;
+补充说明宾语的成分就叫做宾补。</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-text data-lang=text><span style=display:flex><span>1. I find you beautiful.
+</span></span><span style=display:flex><span>2. I consider him a liar.
+</span></span><span style=display:flex><span>3. I hear her signing.
+</span></span></code></pre></div><blockquote>
+<p>Tip：</p><blockquote>
+<p>如果宾语和宾语之后的成分加be动词后能够构成一个逻辑完整的句子，则宾语之后的成分为宾补。</p></blockquote></blockquote><p>思维导图：</p><pre tabindex=0><code class=language-mermaid data-lang=mermaid>graph LR;
     主语+谓语 --&gt; 实意动词;
     主语+谓语 --&gt; 系动词;
     实意动词 --&gt; 宾语;
     系动词 --&gt; 表语;
     宾语 --&gt; 宾补;
-</code></pre></li>
-</ol>
-<hr>
-<h2 id=五大基本句型>五大基本句型</h2>
-<ol>
+</code></pre></li></ol><hr>
+<h2 id=五大基本句型>五大基本句型</h2><ol>
 <li>
-<p>主语 + 谓语</p>
-<p>e.g. I arrived / The rain stopped.</p>
-</li>
+<p>主语 + 谓语</p><p>e.g. I arrived / The rain stopped.</p></li><li>
+<p>主语 + 谓语 + 宾语</p><p>e.g. I love you.</p></li><li>
+<p>主语 + 谓语 + 宾语 + 宾语</p><p>e.g. My mum bought me a drink.</p></li><li>
+<p>主语 + 谓语 + 宾语 + 宾补</p><p>e.g. I find you beautiful.</p></li><li>
+<p>主语 + 系动词 + 表语</p><p>e.g. I am good.</p></li></ol><blockquote>
+<p>Tip:</p><blockquote>
+<p>1.五大基本句型是万万句之源</p><p>2.一个句子的主干有且仅有一个谓语动词</p></blockquote></blockquote><h3 id=补充定义>补充定义</h3><p>定语和状语</p><ol>
 <li>
-<p>主语 + 谓语 + 宾语</p>
-<p>e.g. I love you.</p>
-</li>
-<li>
-<p>主语 + 谓语 + 宾语 + 宾语</p>
-<p>e.g. My mum bought me a drink.</p>
-</li>
-<li>
-<p>主语 + 谓语 + 宾语 + 宾补</p>
-<p>e.g. I find you beautiful.</p>
-</li>
-<li>
-<p>主语 + 系动词 + 表语</p>
-<p>e.g. I am good.</p>
-</li>
-</ol>
-<blockquote>
-<p>Tip:</p>
-<blockquote>
-<p>1.五大基本句型是万万句之源</p>
-<p>2.一个句子的主干有且仅有一个谓语动词</p>
-</blockquote>
-</blockquote>
-<h3 id=补充定义>补充定义</h3>
-<p>定语和状语</p>
-<ol>
-<li>
-<p>状语</p>
-<p>除去五大基本概念和形容词（定语）剩下的部分就是状语。</p>
-<p>教科书定义：说明地点、时间、原因、目的、结果、条件、方向、程度、方式和伴随状况等的句子叫做状语。</p>
-<blockquote>
-<p>Tip:</p>
-<blockquote>
-<p>介词短语几乎都是状语</p>
-</blockquote>
-</blockquote>
-</li>
-<li>
+<p>状语</p><p>除去五大基本概念和形容词（定语）剩下的部分就是状语。</p><p>教科书定义：说明地点、时间、原因、目的、结果、条件、方向、程度、方式和伴随状况等的句子叫做状语。</p><blockquote>
+<p>Tip:</p><blockquote>
+<p>介词短语几乎都是状语</p></blockquote></blockquote></li><li>
 <p>定语
-形容词</p>
-</li>
-</ol>
-<h3 id=例句1>例句1</h3>
-<ol>
+形容词</p></li></ol><h3 id=例句1>例句1</h3><ol>
 <li>
-<p>主+谓</p>
-<ul>
-<li>He cried.</li>
-<li>The bus stopped.</li>
-<li>It is raining now. （时间状语）</li>
-<li>We have worked for 5 days. （时间状语）</li>
-<li>Dark clouds hung overhead. （方向状语）</li>
-<li>Gradually a smile appreared on her face. (伴随和地点状语)</li>
-<li>He is smiling all over his face. (地点方位状语)</li>
-<li>I did well in English. (程度状语)</li>
-<li>He talked loudly in the classroom yesterday. (多状语)</li>
-</ul>
-</li>
-<li>
-<p>主+谓+宾</p>
-<ul>
-<li>I love you.</li>
-<li>People all over the world speak English. (范围状语)</li>
-<li>He did not know what to say. (what to say 作宾语)</li>
-<li>He practive speaking English every day.</li>
-<li>He is having dinner at home now.</li>
-</ul>
-</li>
-<li>
-<p>主+谓+宾+宾</p>
-<ul>
-<li>He lent me some money.</li>
-<li>She orderd herself a new dress.</li>
-<li>She cooked her husband a delicious meal.</li>
-<li>I showed him my pictures.</li>
-<li>He showed me how to run the machine.</li>
-</ul>
-</li>
-<li>
-<p>主+谓+宾+宾补</p>
-<ul>
-<li>he asked me to lend him some money. （“be + to do” 表示将来时结构作宾补）</li>
-<li>Our teacher encourages us to do more reading.</li>
-<li>I heard someone calling for help. (&ldquo;doding&rdquo; 结构作宾补)</li>
-<li>We saw her entering the room.</li>
-<li>His father named him Dongming.</li>
-<li>Let the fresh air in.</li>
-<li>We saw him out.</li>
-<li>He kept his hands behind his back.</li>
-<li>I want your homework done on time.</li>
-<li>I&rsquo;ll have my bike repaired. (&ldquo;have + sth. done&rdquo;)</li>
-<li>I&rsquo;ll have my hair cut.</li>
-<li>They painted their boat white.</li>
-</ul>
-</li>
-<li>
-<p>主+系+表</p>
-<ul>
-<li>His advice proved right.</li>
-<li>The shop stays open till 8 o&rsquo;clock.</li>
-<li>The mechine went wrong.</li>
-<li>All these efforts seem in vain.</li>
-<li>The room soon became crowded.</li>
-<li>The days are getting longer and longer.</li>
-<li>He fell ill yesterday.</li>
-<li>Trees turn green i spring.</li>
-<li>What you said sounds great.</li>
-<li>He tasted the food, and the food tasted delicious.</li>
-<li>The book sill lies open on the desk.</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id=并列句的起源与本质>并列句的起源与本质</h2>
-<p>简单句 + 并列连词 + 简单句.</p>
-<p>You are nice but i don&rsquo;t love you.</p>
-<pre tabindex=0><code class=language-mermaid data-lang=mermaid>graph LR;
+<p>主+谓</p><ul>
+<li>He cried.</li><li>The bus stopped.</li><li>It is raining now. （时间状语）</li><li>We have worked for 5 days. （时间状语）</li><li>Dark clouds hung overhead. （方向状语）</li><li>Gradually a smile appreared on her face. (伴随和地点状语)</li><li>He is smiling all over his face. (地点方位状语)</li><li>I did well in English. (程度状语)</li><li>He talked loudly in the classroom yesterday. (多状语)</li></ul></li><li>
+<p>主+谓+宾</p><ul>
+<li>I love you.</li><li>People all over the world speak English. (范围状语)</li><li>He did not know what to say. (what to say 作宾语)</li><li>He practive speaking English every day.</li><li>He is having dinner at home now.</li></ul></li><li>
+<p>主+谓+宾+宾</p><ul>
+<li>He lent me some money.</li><li>She orderd herself a new dress.</li><li>She cooked her husband a delicious meal.</li><li>I showed him my pictures.</li><li>He showed me how to run the machine.</li></ul></li><li>
+<p>主+谓+宾+宾补</p><ul>
+<li>he asked me to lend him some money. （“be + to do” 表示将来时结构作宾补）</li><li>Our teacher encourages us to do more reading.</li><li>I heard someone calling for help. (&ldquo;doding&rdquo; 结构作宾补)</li><li>We saw her entering the room.</li><li>His father named him Dongming.</li><li>Let the fresh air in.</li><li>We saw him out.</li><li>He kept his hands behind his back.</li><li>I want your homework done on time.</li><li>I&rsquo;ll have my bike repaired. (&ldquo;have + sth. done&rdquo;)</li><li>I&rsquo;ll have my hair cut.</li><li>They painted their boat white.</li></ul></li><li>
+<p>主+系+表</p><ul>
+<li>His advice proved right.</li><li>The shop stays open till 8 o&rsquo;clock.</li><li>The mechine went wrong.</li><li>All these efforts seem in vain.</li><li>The room soon became crowded.</li><li>The days are getting longer and longer.</li><li>He fell ill yesterday.</li><li>Trees turn green i spring.</li><li>What you said sounds great.</li><li>He tasted the food, and the food tasted delicious.</li><li>The book sill lies open on the desk.</li></ul></li></ol><hr>
+<h2 id=并列句的起源与本质>并列句的起源与本质</h2><p>简单句 + 并列连词 + 简单句.</p><p>You are nice but i don&rsquo;t love you.</p><pre tabindex=0><code class=language-mermaid data-lang=mermaid>graph LR;
     并列连词 --&gt; and;
     and --&gt; A(He helped me and i helped him.);
     并列连词 --&gt; or;
     or --&gt; B(You can watch TV or you can do exercise.);
     并列连词 --&gt; but;
-    but --&gt; C(You are nice but i don't love you.);
-</code></pre><h2 id=名词性定语从句的起源与本质>名词性定语从句的起源与本质</h2>
-<p>一个句子做了名词的功能就叫做名词性从句。</p>
-<pre tabindex=0><code class=language-mermaid data-lang=mermaid>    graph LR;
+    but --&gt; C(You are nice but i don&#39;t love you.);
+</code></pre><h2 id=名词性定语从句的起源与本质>名词性定语从句的起源与本质</h2><p>一个句子做了名词的功能就叫做名词性从句。</p><pre tabindex=0><code class=language-mermaid data-lang=mermaid>    graph LR;
         名词性从句 --&gt; 主语从句;
         名词性从句 --&gt; 宾语从句;
         名词性从句 --&gt; 表语从句;
@@ -448,7 +227,7 @@ Tech Lake</a>
         主语从句 -- 陈述句 --&gt; A1(变形规则:That + 陈述句);
         主语从句 -- 一般疑问句 --&gt; A2(变形规则:Whether + 一般疑问句陈述语序);
         主语从句 -- 特殊疑问句 --&gt; A3(变形规则:特殊疑问词 + 特殊疑问句陈述语序);
-        宾语从句 -- 陈述句 --&gt; B1[&quot;变形规则:(That) + 陈述句,宾语从句中that可省略&quot;];
+        宾语从句 -- 陈述句 --&gt; B1[&#34;变形规则:(That) + 陈述句,宾语从句中that可省略&#34;];
         宾语从句 -- 一般疑问句 --&gt; B2(变形规则:Whether/If + 一般疑问句陈述语序,宾语从句中whether可用if替换);
         宾语从句 -- 特殊疑问句 --&gt; B3(变形规则:特殊疑问词 + 特殊疑问句陈述语序);
         表语从句 -- 陈述句 --&gt; C1[变形规则:That + 陈述句];
@@ -457,25 +236,19 @@ Tech Lake</a>
         同位语从句 -- 陈述句 --&gt; D1[变形规则:That + 陈述句];
         同位语从句 -- 一般疑问句 --&gt; D2(变形规则:Whether/If + 一般疑问句陈述语序);
         同位语从句 -- 特殊疑问句 --&gt; D3(变形规则:特殊疑问词 + 特殊疑问句陈述语序);
-</code></pre><h3 id=规则>规则</h3>
-<ol>
+</code></pre><h3 id=规则>规则</h3><ol>
 <li>
-<p>变化规则：that + 陈述句 = 名词</p>
-<p>That Yaoming is tall is a fact.</p>
-<pre tabindex=0><code class=language-mermaid data-lang=mermaid>graph LR;
+<p>变化规则：that + 陈述句 = 名词</p><p>That Yaoming is tall is a fact.</p><pre tabindex=0><code class=language-mermaid data-lang=mermaid>graph LR;
     名词性从句 -- 陈述句 --&gt; 主语从句;
     主语从句 --&gt; A(That Yaoming is tall is a fact.);
     名词性从句 -- 陈述句 --&gt; 宾语从句;
-    宾语从句 --&gt; B[&quot;We know (that) Yaiming is tall.&quot;];
+    宾语从句 --&gt; B[&#34;We know (that) Yaiming is tall.&#34;];
     名词性从句 -- 陈述句 --&gt; 表语从句;
     表语从句 --&gt; C(My option is that Yaoming is tall.);
     名词性从句 -- 陈述句 --&gt; 同位语从句;
     同位语从句 --&gt; D(The option that Yaoming is tall is right.);
-</code></pre></li>
-<li>
-<p>变化规则：if/whether + 一般疑问句的陈述语序 = 名词</p>
-<p>一般疑问句：Will you come to Bejing tomorrow?</p>
-<pre tabindex=0><code class=language-mermaid data-lang=mermaid>graph LR;
+</code></pre></li><li>
+<p>变化规则：if/whether + 一般疑问句的陈述语序 = 名词</p><p>一般疑问句：Will you come to Bejing tomorrow?</p><pre tabindex=0><code class=language-mermaid data-lang=mermaid>graph LR;
     名词性从句 -- 一般疑问句 --&gt; 主语从句;
     主语从句 --&gt; 1.你明天是否来北京对我来说很重要.;
     主语从句 --&gt; A(Whether you will come to Bejing tomorrow is impotant to me.);
@@ -488,27 +261,22 @@ Tech Lake</a>
     名词性从句 -- 一般疑问句 --&gt; 同位语从句;
     同位语从句 --&gt; 4.你明天是否来北京这个问题让我很烦心.;
     同位语从句 --&gt; D(The question whether you will come to Bejing tomorrow bothers me.);
-</code></pre></li>
-<li>
-<p>变化规则：陈述语序的特殊疑问句 = 名词</p>
-<p>特殊疑问句：Why are you so clever.</p>
-<pre tabindex=0><code class=language-mermaid data-lang=mermaid>graph LR;
+</code></pre></li><li>
+<p>变化规则：陈述语序的特殊疑问句 = 名词</p><p>特殊疑问句：Why are you so clever.</p><pre tabindex=0><code class=language-mermaid data-lang=mermaid>graph LR;
     名词性从句 -- 特殊疑问句 --&gt; 主语从句;
     主语从句 --&gt; 1.你为什么这么聪明是一个谜.;
     主语从句 --&gt; A(Why you are so clever is a mystery.);
     名词性从句 -- 特殊疑问句 --&gt; 宾语从句;
     宾语从句 --&gt; 2.我们不知道你为什么这么聪明.;
-    宾语从句 --&gt; B(We don't know why you are so clever.');
+    宾语从句 --&gt; B(We don&#39;t know why you are so clever.&#39;);
     名词性从句 -- 特殊疑问句 --&gt; 表语从句;
     表语从句 --&gt; 3.我的问题是你为什么这么聪明.;
     表语从句 --&gt; C(My question is why you are so clever.);
     名词性从句 -- 特殊疑问句 --&gt; 同位语从句;
     同位语从句 --&gt; 4.你为什么这么聪明这个问题让我感兴趣.;
     同位语从句 --&gt; D(The question why you are so clever interest.);
-</code></pre></li>
-<li>
-<p>特殊疑问词</p>
-<pre tabindex=0><code class=language-mermaid data-lang=mermaid>   graph LR;
+</code></pre></li><li>
+<p>特殊疑问词</p><pre tabindex=0><code class=language-mermaid data-lang=mermaid>   graph LR;
    特殊疑问词 --&gt; 人-2;
    特殊疑问词 --&gt; 物-2;
    特殊疑问词 --&gt; 特殊-3;
@@ -521,79 +289,22 @@ Tech Lake</a>
    特殊-3 --&gt; Where;
    特殊-3 --&gt; Why;
    How-1 --&gt; How;
-</code></pre></li>
-</ol>
-<blockquote>
-<p>Tips:</p>
-<blockquote>
+</code></pre></li></ol><blockquote>
+<p>Tips:</p><blockquote>
 <ol>
 <li>
 <p>在句子中遇到“抽象名词”时，应条件反射地想到后面可能跟了同位语从句，常跟同位语从句的抽象名词有：<br>
-belief(信念)、fact(事实)、idea(主意)、problem(问题)、information(消息)、conclusion(结论)、decision(决定)、news(新闻)、thought(想法)、explanation(解释)等</p>
-</li>
-<li>
+belief(信念)、fact(事实)、idea(主意)、problem(问题)、information(消息)、conclusion(结论)、decision(决定)、news(新闻)、thought(想法)、explanation(解释)等</p></li><li>
 <p>当同位语从句充当主语过长时，同位语从句和它所修饰的名词常常隔开（避免<code>头重脚轻</code>，比如It&rsquo;s a fact that&mldr;）。<br>
 An idea came to her that she cloud solve the problem in another way.<br>
-她想到她可以用另一种方法解决问题。</p>
-</li>
-</ol>
-</blockquote>
-</blockquote>
-<h3 id=例句2>例句2</h3>
-<ol>
+她想到她可以用另一种方法解决问题。</p></li></ol></blockquote></blockquote><h3 id=例句2>例句2</h3><ol>
 <li>
-<p>五大基本句型</p>
-<ul>
-<li>What he does is important. ———— [主语从句 + (主+系+表)结构]</li>
-<li>I don&rsquo;t like what he does every day. ———— [宾语从句 + (主+谓+宾)结构]</li>
-<li>This is what he does every day. ———— [表语从句 + (主+系+表)结构]</li>
-<li>I don&rsquo;t know the fact that he is a teacher. ———— [同位语从句 + (主+谓+宾)结构]</li>
-<li>I wonder(=want to know) who will teach us. ———— [宾语从句 + (主+谓+宾)结构]</li>
-<li>Mr. Wang asked whose book that was. ———— [宾语从句 + (主+谓+宾)结构]</li>
-<li>The news that we won the game is exciting. ———— [同位语从句 + (主+系+表)结构]</li>
-<li>You can do what you think is right. ———— [宾语从句 + (主+谓+宾)结构] 隐含一个定语从句</li>
-<li>Whoever smokes here will be punished. ———— [主语从句 + (主+谓)结构]</li>
-<li>Whatever you say is of no use now. ———— [主语从句 + (主+系+表)结构]</li>
-<li>You can take whatever you like. ———— [主语从句 + (主+谓+宾)结构]</li>
-<li>Whatever he likes will be given to him. ———— [主语从句 + (主+谓+宾)结构]</li>
-<li>Lily wanted to know if her grandma liked the handbag. ———— [宾语从句 + (主+谓+宾)结构]</li>
-<li>It all depends on whether she likes the boss or not. ———— [宾语从句 + (主+谓+宾)结构]</li>
-<li>None of us knows where these new parts can be bought. ———— [宾语从句 + (主+谓+宾)结构]</li>
-<li>I have heard that he will come tomorrow. ———— [宾语从句 + (主+谓+宾)结构]</li>
-<li>His brother asks when he will go to the library. ———— [宾语从句 + (主+谓+宾)结构]</li>
-<li>I don&rsquo;t know what he wants to buy. ———— [宾语从句 + (主+谓+宾)结构]</li>
-<li>Can you tell me who we are going to meet？ ———— [同位语从句 + (主+谓+宾+宾语)结构]</li>
-<li>Could you tell us which gate we have to go to? ———— [同位语从句 + (主+谓+宾+宾)结构]</li>
-<li>Could you please tell me how you use the new panel? ———— [同位语从句 + (主+谓+宾+宾)结构]</li>
-<li>Could you tell us how much it costs to fly to Hainan? ———— [同位语从句 + (主+谓+宾+宾)结构]</li>
-<li>Could you tell us how often you go abroad for a holiday? ———— [同位语从句 + (主+谓+宾+宾)结构]</li>
-<li>Could you tell us how long the meeting will last? ———— [同位语从句 + (主+谓+宾+宾)结构]</li>
-<li>I don&rsquo;t know how far it is to the cinema. ———— [宾语从句 + (主+谓+宾)结构]</li>
-<li>Please tell us how many students there are in your school. ———— [同位语从句 + (主+谓+宾+宾)结构]</li>
-<li>Can you tell us how old his brother is? ———— [同位语从句 + (主+谓+宾+宾)结构]</li>
-<li>Please tell us how soon you will be ready. ———— [同位语从句 + (主+谓+宾+宾)结构]</li>
-</ul>
-</li>
-</ol>
-<h3 id=现有语法结构体系无法解释句型>现有语法结构体系无法解释句型</h3>
-<p>表达人的心情时常常用的句型的主干我们是比较难理解的，这一类句子当做固定句型记忆即可。e.g.</p>
-<ol>
-<li>I&rsquo;m afraid (that) he won&rsquo;t pass the exam.</li>
-<li>We are sure that he will be successful soon.</li>
-<li>I&rsquo;m glad that you come to see me.</li>
-</ol>
-<hr>
-<h2 id=形容词性从句定语从句的起源于本质>形容词性从句（定语从句）的起源于本质</h2>
-<p>一个句子做了形容词的功能就叫做形容词性从句。</p>
-<p>I like that beautiful <code>girl</code> <code>who</code> can speak good English.</p>
-<ul>
-<li><code>先行词</code>:girl</li>
-<li><code>关系词</code>:who</li>
-</ul>
-<blockquote>
-<p>从句连词：who、whom、whose、that、which、as、when、where、why.</p>
-</blockquote>
-<pre tabindex=0><code class=language-mermaid data-lang=mermaid>    graph LR;
+<p>五大基本句型</p><ul>
+<li>What he does is important. ———— [主语从句 + (主+系+表)结构]</li><li>I don&rsquo;t like what he does every day. ———— [宾语从句 + (主+谓+宾)结构]</li><li>This is what he does every day. ———— [表语从句 + (主+系+表)结构]</li><li>I don&rsquo;t know the fact that he is a teacher. ———— [同位语从句 + (主+谓+宾)结构]</li><li>I wonder(=want to know) who will teach us. ———— [宾语从句 + (主+谓+宾)结构]</li><li>Mr. Wang asked whose book that was. ———— [宾语从句 + (主+谓+宾)结构]</li><li>The news that we won the game is exciting. ———— [同位语从句 + (主+系+表)结构]</li><li>You can do what you think is right. ———— [宾语从句 + (主+谓+宾)结构] 隐含一个定语从句</li><li>Whoever smokes here will be punished. ———— [主语从句 + (主+谓)结构]</li><li>Whatever you say is of no use now. ———— [主语从句 + (主+系+表)结构]</li><li>You can take whatever you like. ———— [主语从句 + (主+谓+宾)结构]</li><li>Whatever he likes will be given to him. ———— [主语从句 + (主+谓+宾)结构]</li><li>Lily wanted to know if her grandma liked the handbag. ———— [宾语从句 + (主+谓+宾)结构]</li><li>It all depends on whether she likes the boss or not. ———— [宾语从句 + (主+谓+宾)结构]</li><li>None of us knows where these new parts can be bought. ———— [宾语从句 + (主+谓+宾)结构]</li><li>I have heard that he will come tomorrow. ———— [宾语从句 + (主+谓+宾)结构]</li><li>His brother asks when he will go to the library. ———— [宾语从句 + (主+谓+宾)结构]</li><li>I don&rsquo;t know what he wants to buy. ———— [宾语从句 + (主+谓+宾)结构]</li><li>Can you tell me who we are going to meet？ ———— [同位语从句 + (主+谓+宾+宾语)结构]</li><li>Could you tell us which gate we have to go to? ———— [同位语从句 + (主+谓+宾+宾)结构]</li><li>Could you please tell me how you use the new panel? ———— [同位语从句 + (主+谓+宾+宾)结构]</li><li>Could you tell us how much it costs to fly to Hainan? ———— [同位语从句 + (主+谓+宾+宾)结构]</li><li>Could you tell us how often you go abroad for a holiday? ———— [同位语从句 + (主+谓+宾+宾)结构]</li><li>Could you tell us how long the meeting will last? ———— [同位语从句 + (主+谓+宾+宾)结构]</li><li>I don&rsquo;t know how far it is to the cinema. ———— [宾语从句 + (主+谓+宾)结构]</li><li>Please tell us how many students there are in your school. ———— [同位语从句 + (主+谓+宾+宾)结构]</li><li>Can you tell us how old his brother is? ———— [同位语从句 + (主+谓+宾+宾)结构]</li><li>Please tell us how soon you will be ready. ———— [同位语从句 + (主+谓+宾+宾)结构]</li></ul></li></ol><h3 id=现有语法结构体系无法解释句型>现有语法结构体系无法解释句型</h3><p>表达人的心情时常常用的句型的主干我们是比较难理解的，这一类句子当做固定句型记忆即可。e.g.</p><ol>
+<li>I&rsquo;m afraid (that) he won&rsquo;t pass the exam.</li><li>We are sure that he will be successful soon.</li><li>I&rsquo;m glad that you come to see me.</li></ol><hr>
+<h2 id=形容词性从句定语从句的起源于本质>形容词性从句（定语从句）的起源于本质</h2><p>一个句子做了形容词的功能就叫做形容词性从句。</p><p>I like that beautiful <code>girl</code> <code>who</code> can speak good English.</p><ul>
+<li><code>先行词</code>:girl</li><li><code>关系词</code>:who</li></ul><blockquote>
+<p>从句连词：who、whom、whose、that、which、as、when、where、why.</p></blockquote><pre tabindex=0><code class=language-mermaid data-lang=mermaid>    graph LR;
     形容词性从句 --&gt; 修饰人;
     形容词性从句 --&gt; 修饰物;
     形容词性从句 --&gt; 另类形容词;
@@ -616,127 +327,38 @@ An idea came to her that she cloud solve the problem in another way.<br>
     where -- 关系副词 --&gt; H(I can never forget the place where i met her.);
     why -- 关系副词 --&gt; I(I can never forget the reason why she dumped me.);
 </code></pre><blockquote>
-<p>Tips:</p>
-<blockquote>
+<p>Tips:</p><blockquote>
 <ol>
 <li>
-<p>as不可指代具体的某个词，一般指某事件，其引导的定语从句可以至于句首（其他定语从句不可以），也可以至于句末。as在定语从句中通常翻译为<code>正如</code>。</p>
-<p>e.g. A is planned, we got there before eight. (正如计划，我们在八点之前到那了。)<br>
-The won the game, as we had expected. (他们赢得了比赛，正如我们预料的那样。)</p>
-</li>
-<li>
+<p>as不可指代具体的某个词，一般指某事件，其引导的定语从句可以至于句首（其他定语从句不可以），也可以至于句末。as在定语从句中通常翻译为<code>正如</code>。</p><p>e.g. A is planned, we got there before eight. (正如计划，我们在八点之前到那了。)<br>
+The won the game, as we had expected. (他们赢得了比赛，正如我们预料的那样。)</p></li><li>
 <p>固定搭配:<br>
 such/so&mldr;as&mldr;<br>
 the same&mldr;as&mldr;<br>
-reason + why</p>
-<p>e.g. He is not such a fool as he looks. (他并没有看上去那么傻。)</p>
-</li>
-<li>
-<p>that不出现在包含逗号<code>,</code>的定语从句中；也不和介词搭配使用。</p>
-</li>
-<li>
+reason + why</p><p>e.g. He is not such a fool as he looks. (他并没有看上去那么傻。)</p></li><li>
+<p>that不出现在包含逗号<code>,</code>的定语从句中；也不和介词搭配使用。</p></li><li>
 <p>逗号<code>,</code>出现的定语从句通常翻译为两句话。<br>
 4.1. I like the girl who is beautiful. (我喜欢这个漂亮的女孩)<br>
-4.2. I like the girl, who is beautiful. (我喜欢这个女孩，因为她漂亮)</p>
-</li>
-<li>
-<p>that既可以指代人，也可以指代物。通常that可以与who、whom和which互换。</p>
-</li>
-<li>
-<p>关系副词when、where、why使用规则，右边必须紧跟指代时间、地点和reason，右边必须接一个完整的句子（符合五大基本句型且意义完备的句子）。</p>
-</li>
-<li>
+4.2. I like the girl, who is beautiful. (我喜欢这个女孩，因为她漂亮)</p></li><li>
+<p>that既可以指代人，也可以指代物。通常that可以与who、whom和which互换。</p></li><li>
+<p>关系副词when、where、why使用规则，右边必须紧跟指代时间、地点和reason，右边必须接一个完整的句子（符合五大基本句型且意义完备的句子）。</p></li><li>
 <p>当<code>way</code>和<code>time</code>做定语从句的先行词时，关系代词常常省略。<br>
 7.1. I don&rsquo;t like the way (that/in which) he treated me.<br>
 7.2. The way (that/in which) he explained to us is quite simple.<br>
 7.3. This is the time (that) i come here.<br>
-7.4. This is the last time (that) i shall give you a lesson.</p>
-</li>
-</ol>
-</blockquote>
-</blockquote>
-<h3 id=限制性定语从句和非限制性定语从句>限制性定语从句和非限制性定语从句</h3>
-<ol>
+7.4. This is the last time (that) i shall give you a lesson.</p></li></ol></blockquote></blockquote><h3 id=限制性定语从句和非限制性定语从句>限制性定语从句和非限制性定语从句</h3><ol>
 <li>
-<p>限制性定语从句</p>
-<p>She despised people who flattered her. (她看不起那些吹捧她的人)</p>
-<p>定语从句“who flattered her”起到了限制先行名词的作用（即缩小名词的表示范围），归类为限制性定语从句。</p>
-</li>
-<li>
-<p>非限制性定语从句</p>
-<p>在某些场景下，先行词的指向已经是唯一的了，此时就无法再缩小这个先行词的表示范围了。所以非限制性定语从句的作用不直接修饰先行词，只为先行词提供一些补充的信息。</p>
-<p>I made a card for mom, who loves me most.</p>
-<p>所谓的非限制性定语从句，就是用逗号<code>,</code>将定语从句与先行词隔开。</p>
-</li>
-</ol>
-<h3 id=例句3>例句3</h3>
-<ul>
-<li>I like climbing mountains, which is good for my health.</li>
-<li>This is the room, in which i spent my whole childhood.</li>
-<li>The man who/that is speaking at the meeting is a worker.</li>
-<li>These are the trees that/which were planted last year.</li>
-<li>The woman whom they wanted to visit is a teacher.</li>
-<li>I know the girl whose mother is a teacher.</li>
-<li>I have a friend who/that likes listening to classical music.</li>
-<li>The speed at which you drive your car mustn&rsquo;t be too high.</li>
-<li>The man to whom i talked is Mr. Li.</li>
-<li>I don&rsquo;t like the way in which you speak to her.</li>
-<li>Is this the library from which you borrow books?</li>
-<li>The wolf by which the sheep was killed was shot.</li>
-<li>He is such a nice person as is popular.</li>
-<li>It is such a beautiful picture as attracted many people.</li>
-<li>As you&rsquo;ve pointed out, he proves to be the best student here.</li>
-<li>As we all know, the earth is round.</li>
-<li>I&rsquo;ll never forget the days which/that we spent together.</li>
-<li>I&rsquo;ll never forget the day when i joined the league.</li>
-<li>This is the house where i lived two years ago.</li>
-<li>Do you know the reason why she was late?</li>
-</ul>
-<hr>
-<h2 id=副词型从句状语从句的起源于本质>副词型从句（状语从句）的起源于本质</h2>
-<p>一个句子做了副词的功能就叫做副词性从句。</p>
-<p>I love you as a mouse loves rice.</p>
-<blockquote>
+<p>限制性定语从句</p><p>She despised people who flattered her. (她看不起那些吹捧她的人)</p><p>定语从句“who flattered her”起到了限制先行名词的作用（即缩小名词的表示范围），归类为限制性定语从句。</p></li><li>
+<p>非限制性定语从句</p><p>在某些场景下，先行词的指向已经是唯一的了，此时就无法再缩小这个先行词的表示范围了。所以非限制性定语从句的作用不直接修饰先行词，只为先行词提供一些补充的信息。</p><p>I made a card for mom, who loves me most.</p><p>所谓的非限制性定语从句，就是用逗号<code>,</code>将定语从句与先行词隔开。</p></li></ol><h3 id=例句3>例句3</h3><ul>
+<li>I like climbing mountains, which is good for my health.</li><li>This is the room, in which i spent my whole childhood.</li><li>The man who/that is speaking at the meeting is a worker.</li><li>These are the trees that/which were planted last year.</li><li>The woman whom they wanted to visit is a teacher.</li><li>I know the girl whose mother is a teacher.</li><li>I have a friend who/that likes listening to classical music.</li><li>The speed at which you drive your car mustn&rsquo;t be too high.</li><li>The man to whom i talked is Mr. Li.</li><li>I don&rsquo;t like the way in which you speak to her.</li><li>Is this the library from which you borrow books?</li><li>The wolf by which the sheep was killed was shot.</li><li>He is such a nice person as is popular.</li><li>It is such a beautiful picture as attracted many people.</li><li>As you&rsquo;ve pointed out, he proves to be the best student here.</li><li>As we all know, the earth is round.</li><li>I&rsquo;ll never forget the days which/that we spent together.</li><li>I&rsquo;ll never forget the day when i joined the league.</li><li>This is the house where i lived two years ago.</li><li>Do you know the reason why she was late?</li></ul><hr>
+<h2 id=副词型从句状语从句的起源于本质>副词型从句（状语从句）的起源于本质</h2><p>一个句子做了副词的功能就叫做副词性从句。</p><p>I love you as a mouse loves rice.</p><blockquote>
 <p>完整句子1 + 连词 + 完整句子2<br>
-其中（连词 + 完整句子2）为状语从句/副词性从句</p>
-</blockquote>
-<h3 id=副词>副词</h3>
-<p>定义：那些修饰动词、形容词和整个句子的可有可无的成分叫做副词。</p>
-<ul>
-<li>I love you deeply.</li>
-<li>You are beautiful enough.</li>
-<li>I have breakfast every day.</li>
-</ul>
-<blockquote>
-<p>Tips:</p>
-<blockquote>
+其中（连词 + 完整句子2）为状语从句/副词性从句</p></blockquote><h3 id=副词>副词</h3><p>定义：那些修饰动词、形容词和整个句子的可有可无的成分叫做副词。</p><ul>
+<li>I love you deeply.</li><li>You are beautiful enough.</li><li>I have breakfast every day.</li></ul><blockquote>
+<p>Tips:</p><blockquote>
 <ol>
-<li>副词就是状语，状语就是副词。</li>
-<li>那些修饰动词、形容词和整个句子的可有可无的成分叫做副词，也叫做状语。</li>
-<li>除去五大基本概念和定语后剩下的成分就是副词，就是状语。</li>
-<li>说明时间、地点、原因、目的、结果、条件、方向、程度、方式和伴随状况等。</li>
-</ol>
-</blockquote>
-</blockquote>
-<h4 id=例句4>例句4</h4>
-<ul>
-<li>The boy needs a pen <del>very much</del>. (程度)</li>
-<li>The boy <del>really</del> needs a pen. (程度)</li>
-<li>He went <del>there yesterday</del>. (地点+时间)</li>
-<li>It <del>suddenly</del> rained. (方式)</li>
-<li>I <del>often</del> read English <del>loudly in the morning</del>. (频率+程度+时间)</li>
-<li>I <del>seldom</del> go to the movies. (频率)</li>
-<li>We have worked <del>for 5 days</del>. (时间)</li>
-<li>Dark clouds hung <del>overhead</del>. (地点)</li>
-<li><del>Gradually</del> a smile appeared <del>on her face</del>. (方式+地点)</li>
-<li>He is smiling <del>all over his face</del>. (地点)</li>
-<li>I did <del>well in English</del>. (程度+地点)</li>
-<li>He talked <del>loudly in the classroom yesterday</del>. (程度+地点+时间)</li>
-<li>People <del>all over the world</del> speak English. (地点)</li>
-<li>He is having dinner <del>at home now</del>. (地点+时间)</li>
-</ul>
-<h3 id=副词性从句>副词性从句</h3>
-<pre tabindex=0><code class=language-mermaid data-lang=mermaid>    graph LR;
+<li>副词就是状语，状语就是副词。</li><li>那些修饰动词、形容词和整个句子的可有可无的成分叫做副词，也叫做状语。</li><li>除去五大基本概念和定语后剩下的成分就是副词，就是状语。</li><li>说明时间、地点、原因、目的、结果、条件、方向、程度、方式和伴随状况等。</li></ol></blockquote></blockquote><h4 id=例句4>例句4</h4><ul>
+<li>The boy needs a pen <del>very much</del>. (程度)</li><li>The boy <del>really</del> needs a pen. (程度)</li><li>He went <del>there yesterday</del>. (地点+时间)</li><li>It <del>suddenly</del> rained. (方式)</li><li>I <del>often</del> read English <del>loudly in the morning</del>. (频率+程度+时间)</li><li>I <del>seldom</del> go to the movies. (频率)</li><li>We have worked <del>for 5 days</del>. (时间)</li><li>Dark clouds hung <del>overhead</del>. (地点)</li><li><del>Gradually</del> a smile appeared <del>on her face</del>. (方式+地点)</li><li>He is smiling <del>all over his face</del>. (地点)</li><li>I did <del>well in English</del>. (程度+地点)</li><li>He talked <del>loudly in the classroom yesterday</del>. (程度+地点+时间)</li><li>People <del>all over the world</del> speak English. (地点)</li><li>He is having dinner <del>at home now</del>. (地点+时间)</li></ul><h3 id=副词性从句>副词性从句</h3><pre tabindex=0><code class=language-mermaid data-lang=mermaid>    graph LR;
     状语从句的类型 --&gt; 1.时间;
     状语从句的类型 --&gt; 2.地点;
     状语从句的类型 --&gt; 3.原因;
@@ -748,69 +370,22 @@ reason + why</p>
     状语从句的类型 --&gt; 9.方式;
     1.时间 -- 时间连词after --&gt; A(After i finish my homework, i will play games with you.);
     2.地点 -- 地点连词where --&gt; B(You should have put the book where you found it.);
-    3.原因 -- 原因连词because --&gt; C(I didn't come to work because i was ill.);
+    3.原因 -- 原因连词because --&gt; C(I didn&#39;t come to work because i was ill.);
     4.目的 -- 目的连词so that --&gt; D(He looked down so that she could not see his eyes.);
     5.条件 -- 条件连词if --&gt; E(If plastics are burned, they give off poisonous gases.);
-    6.结果 -- 结果连词so --&gt; F(I didn't sleep well last night, so i feel sleepy this morning.);
+    6.结果 -- 结果连词so --&gt; F(I didn&#39;t sleep well last night, so i feel sleepy this morning.);
     7.比较 -- 比较连词than --&gt; G(You look younger than you are.);
-    8.让步 -- 让步连词although--&gt; H(Although he studied hard, he didn't pass the examination.);
+    8.让步 -- 让步连词although--&gt; H(Although he studied hard, he didn&#39;t pass the examination.);
     9.方式 -- 方式as --&gt; I(You must try to hold the tool as i do.);
-</code></pre><h3 id=例句5>例句5</h3>
-<ul>
-<li><code>While/When/As</code> John was watching TV, his wife was cooking.</li>
-<li>You&rsquo;d better think twice <code>before</code> you make your decision.</li>
-<li>It is a month <code>since</code> i met him last time.</li>
-<li>It has been five years <code>since</code> i taught English.</li>
-<li>I found the world was amazing <code>after</code> i wnet abroad.</li>
-<li>I waited <code>until</code> he came.</li>
-<li>I didn&rsquo;t have a boyfriend <code>until</code> i was 17 years old.</li>
-<li><code>Whenever</code> a visitor comes into a house, he is served with a cup of tea.</li>
-<li><code>Each time</code> i went there i saw him working.</li>
-<li><code>Every time</code> i listened to your advice i got into trouble.</li>
-<li><code>By the time</code> he was taken to the hospital he was almost dead.</li>
-<li><code>Next time</code> you come to class, please remember to take your notes.</li>
-<li><code>The first time</code> i saw you i fell in love with you.</li>
-<li>He didn&rsquo;t tell me the news <code>the last time</code> i saw him.</li>
-<li>People check messages <code>as soon as</code> we wake up.</li>
-<li>The children ran away from the garden <code>the moment</code> they saw the guard.</li>
-<li>I want to see him <code>the minute</code> he arrives.</li>
-<li><code>Once</code> he arrives we can start.</li>
-<li><code>Hardly</code> had he reached the school gate <code>when</code> the bell rang.</li>
-<li>I had <code>o sooner</code> arrived home <code>than</code> it began to rain.</li>
-<li>Generally, air will be heavily polluted <code>where</code> there are factories.</li>
-<li><code>Wherever</code> you go, you should work hard.</li>
-<li><code>Where</code> there is no rain, farming is difficult or impossible.</li>
-<li>My friends dislike me <code>because</code> i&rsquo;m handsome and successful.</li>
-<li><code>Now that</code> everybody has come, let&rsquo;s begin our conference.</li>
-<li>The higher income tax is harmful <code>in taht</code> it may discourage people from trying to earn more.</li>
-<li>The teacher uses simple examples <code>so that</code> his students could understand him.</li>
-<li>He got up <code>so</code> early <code>that</code> he caught the first bus.</li>
-<li>It&rsquo;s <code>such</code> a good change <code>that</code> we must not miss it.</li>
-<li>We&rsquo;ll start our project <code>if</code> the president agrees.</li>
-<li>You will certainly succeed <code>as long as</code> you keep on trying.</li>
-<li>The old man always enjoys swimming <code>even though</code> the weather is bad.</li>
-<li><code>No matter</code> how hard he tried, she could not change her mind.</li>
-<li>He won&rsquo;t listen <code>whatever</code> you may say. => He won&rsquo;t listen <code>no matter</code> what you may say.</li>
-<li>I will support you <code>whichever</code> you choose. => I will support you <code>no matter</code> which you choose.</li>
-</ul>
-<blockquote>
-<p>Tips:</p>
-<blockquote>
-<p>时间状语从句尤为常见。</p>
-<ol>
+</code></pre><h3 id=例句5>例句5</h3><ul>
+<li><code>While/When/As</code> John was watching TV, his wife was cooking.</li><li>You&rsquo;d better think twice <code>before</code> you make your decision.</li><li>It is a month <code>since</code> i met him last time.</li><li>It has been five years <code>since</code> i taught English.</li><li>I found the world was amazing <code>after</code> i wnet abroad.</li><li>I waited <code>until</code> he came.</li><li>I didn&rsquo;t have a boyfriend <code>until</code> i was 17 years old.</li><li><code>Whenever</code> a visitor comes into a house, he is served with a cup of tea.</li><li><code>Each time</code> i went there i saw him working.</li><li><code>Every time</code> i listened to your advice i got into trouble.</li><li><code>By the time</code> he was taken to the hospital he was almost dead.</li><li><code>Next time</code> you come to class, please remember to take your notes.</li><li><code>The first time</code> i saw you i fell in love with you.</li><li>He didn&rsquo;t tell me the news <code>the last time</code> i saw him.</li><li>People check messages <code>as soon as</code> we wake up.</li><li>The children ran away from the garden <code>the moment</code> they saw the guard.</li><li>I want to see him <code>the minute</code> he arrives.</li><li><code>Once</code> he arrives we can start.</li><li><code>Hardly</code> had he reached the school gate <code>when</code> the bell rang.</li><li>I had <code>o sooner</code> arrived home <code>than</code> it began to rain.</li><li>Generally, air will be heavily polluted <code>where</code> there are factories.</li><li><code>Wherever</code> you go, you should work hard.</li><li><code>Where</code> there is no rain, farming is difficult or impossible.</li><li>My friends dislike me <code>because</code> i&rsquo;m handsome and successful.</li><li><code>Now that</code> everybody has come, let&rsquo;s begin our conference.</li><li>The higher income tax is harmful <code>in taht</code> it may discourage people from trying to earn more.</li><li>The teacher uses simple examples <code>so that</code> his students could understand him.</li><li>He got up <code>so</code> early <code>that</code> he caught the first bus.</li><li>It&rsquo;s <code>such</code> a good change <code>that</code> we must not miss it.</li><li>We&rsquo;ll start our project <code>if</code> the president agrees.</li><li>You will certainly succeed <code>as long as</code> you keep on trying.</li><li>The old man always enjoys swimming <code>even though</code> the weather is bad.</li><li><code>No matter</code> how hard he tried, she could not change her mind.</li><li>He won&rsquo;t listen <code>whatever</code> you may say. => He won&rsquo;t listen <code>no matter</code> what you may say.</li><li>I will support you <code>whichever</code> you choose. => I will support you <code>no matter</code> which you choose.</li></ul><blockquote>
+<p>Tips:</p><blockquote>
+<p>时间状语从句尤为常见。</p><ol>
 <li>常见的时间状语连词：
-when/while/as/before/after/since/till/untill</li>
-<li>&ldquo;一&mldr;就&mldr;&ldquo;系列:
-as soon as/the moment/the second/the minute/once/hardly&mldr;when&mldr;/no sooner&mldr;than&mldr;</li>
-<li>Time系列:
-every time/each time/next time/the last time/the first time/by the time.</li>
-</ol>
-</blockquote>
-</blockquote>
-<hr>
-<h2 id=长难句必杀技一--左二右六原则>长难句必杀技一 ———— “左二右六原则”</h2>
-<p>左二右六原则.</p>
-<pre tabindex=0><code class=language-mermaid data-lang=mermaid>graph LR;
+when/while/as/before/after/since/till/untill</li><li>&ldquo;一&mldr;就&mldr;&ldquo;系列:
+as soon as/the moment/the second/the minute/once/hardly&mldr;when&mldr;/no sooner&mldr;than&mldr;</li><li>Time系列:
+every time/each time/next time/the last time/the first time/by the time.</li></ol></blockquote></blockquote><hr>
+<h2 id=长难句必杀技一--左二右六原则>长难句必杀技一 ———— “左二右六原则”</h2><p>左二右六原则.</p><pre tabindex=0><code class=language-mermaid data-lang=mermaid>graph LR;
     限定词 --&gt; 核心名词;
     形容词 --&gt; 核心名词;
     核心名词 --&gt; A(1. 不定式) --&gt; A1(to do);
@@ -821,69 +396,12 @@ every time/each time/next time/the last time/the first time/by the time.</li>
     核心名词 --&gt; D(4. 定语从句);
     核心名词 --&gt; E(5. 形容词短语) --&gt; E1(beautiful enough);
     核心名词 --&gt; F(6. 同位语从句);
-</code></pre><h3 id=限定词>限定词</h3>
-<p>语法：限定词是指在名词词组中对中心名词起特指，类指及表示确定数量和非确定数量作用的词表。</p>
-<blockquote>
-<p>限定词分类：</p>
-<blockquote>
+</code></pre><h3 id=限定词>限定词</h3><p>语法：限定词是指在名词词组中对中心名词起特指，类指及表示确定数量和非确定数量作用的词表。</p><blockquote>
+<p>限定词分类：</p><blockquote>
 <ol>
-<li>冠词：a, an, the</li>
-<li>形容词性代词：my, your, his, her, its, their</li>
-<li>量词：a number of, plenty of, some &mldr;</li>
-</ol>
-</blockquote>
-</blockquote>
-<h3 id=例句6>例句6</h3>
-<p>简单句型：The beautiful girl is Angelababy.</p>
-<ul>
-<li>The <code>beautiful</code> girl <code>to get married</code> is Angelababy. (不定式)</li>
-<li>The <code>beautiful</code> girl <code>wearing sunglasses</code> is Angelababy. (现在分词)</li>
-<li>The <code>beautiful</code> girl <code>hugged by HXM</code> is Angelababy. (过去分词)</li>
-<li>The <code>beautiful</code> girl <code>in blue jeans</code> is Angelababy. (介词短语)</li>
-<li>The <code>beautiful</code> girl <code>who is the leading actress in running man</code> is Angelababy. (定语从句)</li>
-<li>The <code>beautiful</code> girl <code>slim enough</code> is Angelababy. (形容词短语)</li>
-<li>The question <code>whether the beautiful girl is Angelababy</code> has an answer. (同位语从句)</li>
-<li>I have many letters <code>to write</code>. (不定式)</li>
-<li>The letter <code>to be written</code> is to my father. (不定式)</li>
-<li>We have made a plan <code>to learn from Lei Feng</code>. (不定式)</li>
-<li>He made a promise <code>to come here on time tomorrow</code>. (不定式)</li>
-<li>We got the order <code>to leave the city</code>. (不定式)</li>
-<li>The dog <code>lying on the ground</code> is mine. (现在分词)</li>
-<li>People <code>exercising every day</code> live longer. (现在分词)</li>
-<li>They built a road <code>leading into the mountains</code>. (现在分词)</li>
-<li>We met a group of pupils <code>returning from school</code>. (现在分词)</li>
-<li>Surely, someone <code>passing by</code> would see it. (现在分词)</li>
-<li>This is a film <code>directed by Feng Xiaogang</code>. (过去分词)</li>
-<li>What is the language <code>spoken in Spain</code>? (过去分词)</li>
-<li>People got water by dropping a bucket <code>tied to a rope</code>. (过去分词)</li>
-<li>The reading time <code>spent on them</code> is getting longer. (过去分词)</li>
-<li>He told me to watch the circles <code>created by the stone</code>. (过去分词)</li>
-<li>The bird <code>on the tree</code> flied away. (介词短语)</li>
-<li>The road <code>to the school</code> is not wide. (介词短语)</li>
-<li>The basic idea <code>behind the festival</code> remains the same. (介词短语)</li>
-<li>We know China is a country <code>with a large population</code>. (介词短语)</li>
-<li>Questions <code>about the competition</code> can be emailed to <a href=mailto:51@qq.com>51@qq.com</a>. (介词短语)</li>
-<li>Italian is a language <code>very difficult to learn</code>. (形容词短语：形容词+to do.)</li>
-<li>He looked at her eyes <code>full of tears</code>. (形容词短语)</li>
-<li>I know the actor <code>suitable for the role</code>. (形容词短语)</li>
-<li>I know it is a city <code>famous for kites</code>. (形容词短语)</li>
-<li>I know now that i am not the only one <code>uncertain about future sutuies</code>. (形容词短语)</li>
-<li>The fact <code>that she didn't like me</code> really hurts me. (同位语从句)</li>
-<li>The general gave the order <code>that the soldiers should cross the river at once</code>. (同位语从句)</li>
-<li>I received the message <code>that he won't be able to see me tomorrow</code>. (同位语从句)</li>
-<li>The suggestion <code>that he plan should be delayed</code> will be discussed tomorrow. (同位语从句)</li>
-<li>The news <code>that our team has won the game</code> is true. (同位语从句)</li>
-<li>They expressed the hope <code>that they would come to visit Bejing again</code>. (同位语从句)</li>
-<li>Many British parents hold the view <code>that teenagers shouldn't spend too much time online</code>. (同位语从句)</li>
-<li>We&rsquo;ll discuss the problem <code>whether the sports meeting will be held on time</code>. (同位语从句)</li>
-<li>In the video, young people <code>from 20 countries</code> <code>along the Belt and Road(一带一路) routes</code> were asked to name great inventions <code>that had influenced their lives in China</code>.</li>
-<li>People&rsquo;s knowledge and ideas <code>about Scotsmen</code> <code>wearing these funny kilts</code> come from films and television.</li>
-<li>This book can give you the answers <code>to the questions</code> most often <code>asked by parents, teachers and students themselves</code>.</li>
-</ul>
-<hr>
-<h2 id=长难句必杀技二--悬挂结构>长难句必杀技二 ———— “悬挂结构”</h2>
-<p>规则：<code>主+谓+宾，悬挂X</code> 或者 <code>悬挂X，主+谓+宾</code>，悬挂结构其实伴随状语</p>
-<pre tabindex=0><code class=language-mermaid data-lang=mermaid>graph LR;
+<li>冠词：a, an, the</li><li>形容词性代词：my, your, his, her, its, their</li><li>量词：a number of, plenty of, some &mldr;</li></ol></blockquote></blockquote><h3 id=例句6>例句6</h3><p>简单句型：The beautiful girl is Angelababy.</p><ul>
+<li>The <code>beautiful</code> girl <code>to get married</code> is Angelababy. (不定式)</li><li>The <code>beautiful</code> girl <code>wearing sunglasses</code> is Angelababy. (现在分词)</li><li>The <code>beautiful</code> girl <code>hugged by HXM</code> is Angelababy. (过去分词)</li><li>The <code>beautiful</code> girl <code>in blue jeans</code> is Angelababy. (介词短语)</li><li>The <code>beautiful</code> girl <code>who is the leading actress in running man</code> is Angelababy. (定语从句)</li><li>The <code>beautiful</code> girl <code>slim enough</code> is Angelababy. (形容词短语)</li><li>The question <code>whether the beautiful girl is Angelababy</code> has an answer. (同位语从句)</li><li>I have many letters <code>to write</code>. (不定式)</li><li>The letter <code>to be written</code> is to my father. (不定式)</li><li>We have made a plan <code>to learn from Lei Feng</code>. (不定式)</li><li>He made a promise <code>to come here on time tomorrow</code>. (不定式)</li><li>We got the order <code>to leave the city</code>. (不定式)</li><li>The dog <code>lying on the ground</code> is mine. (现在分词)</li><li>People <code>exercising every day</code> live longer. (现在分词)</li><li>They built a road <code>leading into the mountains</code>. (现在分词)</li><li>We met a group of pupils <code>returning from school</code>. (现在分词)</li><li>Surely, someone <code>passing by</code> would see it. (现在分词)</li><li>This is a film <code>directed by Feng Xiaogang</code>. (过去分词)</li><li>What is the language <code>spoken in Spain</code>? (过去分词)</li><li>People got water by dropping a bucket <code>tied to a rope</code>. (过去分词)</li><li>The reading time <code>spent on them</code> is getting longer. (过去分词)</li><li>He told me to watch the circles <code>created by the stone</code>. (过去分词)</li><li>The bird <code>on the tree</code> flied away. (介词短语)</li><li>The road <code>to the school</code> is not wide. (介词短语)</li><li>The basic idea <code>behind the festival</code> remains the same. (介词短语)</li><li>We know China is a country <code>with a large population</code>. (介词短语)</li><li>Questions <code>about the competition</code> can be emailed to <a href=mailto:51@qq.com>51@qq.com</a>. (介词短语)</li><li>Italian is a language <code>very difficult to learn</code>. (形容词短语：形容词+to do.)</li><li>He looked at her eyes <code>full of tears</code>. (形容词短语)</li><li>I know the actor <code>suitable for the role</code>. (形容词短语)</li><li>I know it is a city <code>famous for kites</code>. (形容词短语)</li><li>I know now that i am not the only one <code>uncertain about future sutuies</code>. (形容词短语)</li><li>The fact <code>that she didn't like me</code> really hurts me. (同位语从句)</li><li>The general gave the order <code>that the soldiers should cross the river at once</code>. (同位语从句)</li><li>I received the message <code>that he won't be able to see me tomorrow</code>. (同位语从句)</li><li>The suggestion <code>that he plan should be delayed</code> will be discussed tomorrow. (同位语从句)</li><li>The news <code>that our team has won the game</code> is true. (同位语从句)</li><li>They expressed the hope <code>that they would come to visit Bejing again</code>. (同位语从句)</li><li>Many British parents hold the view <code>that teenagers shouldn't spend too much time online</code>. (同位语从句)</li><li>We&rsquo;ll discuss the problem <code>whether the sports meeting will be held on time</code>. (同位语从句)</li><li>In the video, young people <code>from 20 countries</code> <code>along the Belt and Road(一带一路) routes</code> were asked to name great inventions <code>that had influenced their lives in China</code>.</li><li>People&rsquo;s knowledge and ideas <code>about Scotsmen</code> <code>wearing these funny kilts</code> come from films and television.</li><li>This book can give you the answers <code>to the questions</code> most often <code>asked by parents, teachers and students themselves</code>.</li></ul><hr>
+<h2 id=长难句必杀技二--悬挂结构>长难句必杀技二 ———— “悬挂结构”</h2><p>规则：<code>主+谓+宾，悬挂X</code> 或者 <code>悬挂X，主+谓+宾</code>，悬挂结构其实伴随状语</p><pre tabindex=0><code class=language-mermaid data-lang=mermaid>graph LR;
     X --&gt; A(1. n.);
     X --&gt; B(2. adj.);
     X --&gt; C(3. to do);
@@ -892,294 +410,143 @@ every time/each time/next time/the last time/the first time/by the time.</li>
     X --&gt; F(6. having done);
 </code></pre><ol>
 <li>
-<p>n. + svo</p>
-<ul>
-<li>The Summer Palace, the park is beautiful.</li>
-<li>I like the Great Wall, one of the eight wonders in the world.</li>
-</ul>
-<blockquote>
-<p><code>名词</code>悬挂结构就近解释</p>
-<blockquote>
-</blockquote>
-</blockquote>
-</li>
-<li>
-<p>adj. + svo</p>
-<ul>
-<li>Mindful of the danger, we stopped climbing.</li>
-<li>Beautiful as Fan Bingbing, the girl is the most welcomed one in her school.</li>
-</ul>
-<blockquote>
-<p><code>形容词</code>悬挂结构一定和主句主语有关</p>
-<blockquote>
-</blockquote>
-</blockquote>
-</li>
-<li>
-<p>to do + svo</p>
-<ul>
-<li>To become beautiful, Vic is losing weight.</li>
-<li>To improve English, i choose to learn from Allen.</li>
-</ul>
-<blockquote>
-<p><code>to do</code>悬挂结构一定和主句主语有关</p>
-<blockquote>
-</blockquote>
-</blockquote>
-</li>
-<li>
-<p>doing + svo</p>
-<ul>
-<li><code>Standing on the top of the mounntain</code>, i saw the whole Beijing.</li>
-<li>He sat under the tree, <code>reading a book</code>.</li>
-<li>The song is sung all over the country, <code>making it the most popular song</code>.</li>
-<li><code>When doing homework</code>, i felt sleepy.</li>
-<li><code>When crossing the bridge</code>, i saw Wu Yanzu.</li>
-<li><code>By learning the cooking skill</code>, she can cook now.</li>
-<li><code>By studying English from Allen</code>, i improved it.</li>
-</ul>
-<blockquote>
-<p><code>doing</code>悬挂结构通常和主句主语有关；当主语解释不通时，则用主句整句话来解释</p>
-<blockquote>
-</blockquote>
-</blockquote>
-</li>
-<li>
-<p>done + svo</p>
-<ul>
-<li><code>Built in 1979</code>, our school is an old school.</li>
-<li>He entered the room, <code>followed by his dog</code>.</li>
-</ul>
-<blockquote>
-<p><code>done</code>悬挂结构一定和主句主语有关</p>
-<blockquote>
-</blockquote>
-</blockquote>
-</li>
-<li>
-<p>Having done + svo</p>
-<ul>
-<li><code>Having handed in the paper</code>, he left the room.</li>
-<li><code>Having been given a map</code>, we found our way easily.</li>
-</ul>
-<blockquote>
-<p><code>Having done</code>悬挂结构一定和主句主语有关</p>
-<blockquote>
-</blockquote>
-</blockquote>
-</li>
-</ol>
-<h3 id=例句7>例句7</h3>
-<ul>
-<li>She sent Henry, the eldest son, to school.</li>
-<li>I&rsquo;m He Wei, an exchange student from China.</li>
-<li>Lin Tao, a 14-year-old schoolboy, still didn&rsquo;t show up at school.</li>
-<li>Recently The Reader, a very popular TV program, is staged in the form of reading.</li>
-<li>C919 is developed by COMAC, a Chinese aircraft company.</li>
-<li>In this video, the little girl wore a qipao, a kind of of traditional Chinese dress.</li>
-<li>Tong Xiaojun, a director from a university, told CCTV &ldquo;we need support from the whole society to solve the problems.&rdquo;</li>
-<li>Lucy is on her way to Harvard, one of the eight world-famous university in the eastern US.</li>
-<li>I went home, tired and exhausted.</li>
-<li>I play tennis with my best friend, happy and excited.</li>
-<li>Confident of the victory, the players are fighting hard.</li>
-<li>To deal with this problem, the Chinese government worked out a fraft regulation in January this year.</li>
-<li>To continue the production, the company plants more bamboo than it cuts.</li>
-<li>Having the will, he always found the way.</li>
-<li>Feeling sorry for the chrysalis(蛹), the man decides to help.</li>
-<li>He also weites articles, hoping that more people will join in protecting natural ecosystems.</li>
-<li>The helmet(头盔) can be folded almost completely flat, making it easier to carry.</li>
-<li>He worked as a border keeper while keeping some sheep to support his family.</li>
-<li>She swept floors and picked up trash again in the afternoon, before diving(跳水) into her studies in the evenings.</li>
-<li>After saying that, the student threw the potato away.</li>
-<li>The water taxi can run for a day, after being recharged(充电).</li>
-<li>By making bamboo bikes, the company offers jobs to the local people.</li>
-<li>By calming down and going slowly, you give your brain a chance to think about what it has already received.</li>
-<li>He hurried to the hall, followed by two guards.</li>
-<li>The film star got off the train, surrounded by her fans.</li>
-<li>The old woman walked slowly to the lift, assisted by her son.</li>
-<li>The president went into the lobby, accompanied by the high officials and reporters.</li>
-<li>Having worked hard all day, i went to bed early.</li>
-<li>Having experienced quite a few earthquakes, i didn&rsquo;t take much notice.</li>
-<li>Having lost all my old friends, i felt lonely at the new school.</li>
-<li>Having succeeded in exam, he became more confident.</li>
-</ul>
-<hr>
-<h2 id=四大特殊句型强调句倒装句虚拟语气独立主格>四大特殊句型：强调句；倒装句；虚拟语气；独立主格</h2>
-<hr>
-<h2 id=时态轴--英语时态的秘密>时态轴 ———— 英语时态的秘密</h2>
-<p>{{ if .Page.Store.Get &ldquo;hasMermaid&rdquo; }}</p>
-<script src=https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js></script>
+<p>n. + svo</p><ul>
+<li>The Summer Palace, the park is beautiful.</li><li>I like the Great Wall, one of the eight wonders in the world.</li></ul><blockquote>
+<p><code>名词</code>悬挂结构就近解释</p><blockquote>
+</blockquote></blockquote></li><li>
+<p>adj. + svo</p><ul>
+<li>Mindful of the danger, we stopped climbing.</li><li>Beautiful as Fan Bingbing, the girl is the most welcomed one in her school.</li></ul><blockquote>
+<p><code>形容词</code>悬挂结构一定和主句主语有关</p><blockquote>
+</blockquote></blockquote></li><li>
+<p>to do + svo</p><ul>
+<li>To become beautiful, Vic is losing weight.</li><li>To improve English, i choose to learn from Allen.</li></ul><blockquote>
+<p><code>to do</code>悬挂结构一定和主句主语有关</p><blockquote>
+</blockquote></blockquote></li><li>
+<p>doing + svo</p><ul>
+<li><code>Standing on the top of the mounntain</code>, i saw the whole Beijing.</li><li>He sat under the tree, <code>reading a book</code>.</li><li>The song is sung all over the country, <code>making it the most popular song</code>.</li><li><code>When doing homework</code>, i felt sleepy.</li><li><code>When crossing the bridge</code>, i saw Wu Yanzu.</li><li><code>By learning the cooking skill</code>, she can cook now.</li><li><code>By studying English from Allen</code>, i improved it.</li></ul><blockquote>
+<p><code>doing</code>悬挂结构通常和主句主语有关；当主语解释不通时，则用主句整句话来解释</p><blockquote>
+</blockquote></blockquote></li><li>
+<p>done + svo</p><ul>
+<li><code>Built in 1979</code>, our school is an old school.</li><li>He entered the room, <code>followed by his dog</code>.</li></ul><blockquote>
+<p><code>done</code>悬挂结构一定和主句主语有关</p><blockquote>
+</blockquote></blockquote></li><li>
+<p>Having done + svo</p><ul>
+<li><code>Having handed in the paper</code>, he left the room.</li><li><code>Having been given a map</code>, we found our way easily.</li></ul><blockquote>
+<p><code>Having done</code>悬挂结构一定和主句主语有关</p><blockquote>
+</blockquote></blockquote></li></ol><h3 id=例句7>例句7</h3><ul>
+<li>She sent Henry, the eldest son, to school.</li><li>I&rsquo;m He Wei, an exchange student from China.</li><li>Lin Tao, a 14-year-old schoolboy, still didn&rsquo;t show up at school.</li><li>Recently The Reader, a very popular TV program, is staged in the form of reading.</li><li>C919 is developed by COMAC, a Chinese aircraft company.</li><li>In this video, the little girl wore a qipao, a kind of of traditional Chinese dress.</li><li>Tong Xiaojun, a director from a university, told CCTV &ldquo;we need support from the whole society to solve the problems.&rdquo;</li><li>Lucy is on her way to Harvard, one of the eight world-famous university in the eastern US.</li><li>I went home, tired and exhausted.</li><li>I play tennis with my best friend, happy and excited.</li><li>Confident of the victory, the players are fighting hard.</li><li>To deal with this problem, the Chinese government worked out a fraft regulation in January this year.</li><li>To continue the production, the company plants more bamboo than it cuts.</li><li>Having the will, he always found the way.</li><li>Feeling sorry for the chrysalis(蛹), the man decides to help.</li><li>He also weites articles, hoping that more people will join in protecting natural ecosystems.</li><li>The helmet(头盔) can be folded almost completely flat, making it easier to carry.</li><li>He worked as a border keeper while keeping some sheep to support his family.</li><li>She swept floors and picked up trash again in the afternoon, before diving(跳水) into her studies in the evenings.</li><li>After saying that, the student threw the potato away.</li><li>The water taxi can run for a day, after being recharged(充电).</li><li>By making bamboo bikes, the company offers jobs to the local people.</li><li>By calming down and going slowly, you give your brain a chance to think about what it has already received.</li><li>He hurried to the hall, followed by two guards.</li><li>The film star got off the train, surrounded by her fans.</li><li>The old woman walked slowly to the lift, assisted by her son.</li><li>The president went into the lobby, accompanied by the high officials and reporters.</li><li>Having worked hard all day, i went to bed early.</li><li>Having experienced quite a few earthquakes, i didn&rsquo;t take much notice.</li><li>Having lost all my old friends, i felt lonely at the new school.</li><li>Having succeeded in exam, he became more confident.</li></ul><hr>
+<h2 id=四大特殊句型强调句倒装句虚拟语气独立主格>四大特殊句型：强调句；倒装句；虚拟语气；独立主格</h2><hr>
+<h2 id=时态轴--英语时态的秘密>时态轴 ———— 英语时态的秘密</h2><p>{{ if .Page.Store.Get &ldquo;hasMermaid&rdquo; }}</p><script src=https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js></script>
 <script>mermaid.initialize({startOnLoad:!0})</script>
-<p>{{ end }}</p>
-<div class=note-card>
+<p>{{ end }}</p><div class=note-card>
 <div class=item>
-<h5 class=note-title><span>Condition</span></h5>
-<div class=card>
-<div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=color:#66d9ef>if</span> <span style=color:#a6e22e>day</span> <span style=color:#f92672>==</span> <span style=color:#e6db74>&#34;sunday&#34;</span> <span style=color:#f92672>||</span> <span style=color:#a6e22e>day</span> <span style=color:#f92672>==</span> <span style=color:#e6db74>&#34;saturday&#34;</span> {
-  <span style=color:#a6e22e>rest</span>()
-} <span style=color:#66d9ef>else</span> <span style=color:#66d9ef>if</span> <span style=color:#a6e22e>day</span> <span style=color:#f92672>==</span> <span style=color:#e6db74>&#34;monday&#34;</span> <span style=color:#f92672>&amp;&amp;</span> <span style=color:#a6e22e>isTired</span>() {
-  <span style=color:#a6e22e>groan</span>()
-} <span style=color:#66d9ef>else</span> {
-  <span style=color:#a6e22e>work</span>()
-}
-</code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=color:#66d9ef>if</span> <span style=color:#a6e22e>_</span>, <span style=color:#a6e22e>err</span> <span style=color:#f92672>:=</span> <span style=color:#a6e22e>doThing</span>(); <span style=color:#a6e22e>err</span> <span style=color:#f92672>!=</span> <span style=color:#66d9ef>nil</span> {
-  <span style=color:#a6e22e>fmt</span>.<span style=color:#a6e22e>Println</span>(<span style=color:#e6db74>&#34;Uh oh&#34;</span>)
-</code></pre></div></div>
-</div>
-</div>
-</div>
-<div class=note-card>
+<h5 class=note-title><span>Condition</span></h5><div class=card>
+<div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=display:flex><span><span style=color:#66d9ef>if</span> <span style=color:#a6e22e>day</span> <span style=color:#f92672>==</span> <span style=color:#e6db74>&#34;sunday&#34;</span> <span style=color:#f92672>||</span> <span style=color:#a6e22e>day</span> <span style=color:#f92672>==</span> <span style=color:#e6db74>&#34;saturday&#34;</span> {
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>rest</span>()
+</span></span><span style=display:flex><span>} <span style=color:#66d9ef>else</span> <span style=color:#66d9ef>if</span> <span style=color:#a6e22e>day</span> <span style=color:#f92672>==</span> <span style=color:#e6db74>&#34;monday&#34;</span> <span style=color:#f92672>&amp;&amp;</span> <span style=color:#a6e22e>isTired</span>() {
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>groan</span>()
+</span></span><span style=display:flex><span>} <span style=color:#66d9ef>else</span> {
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>work</span>()
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=display:flex><span><span style=color:#66d9ef>if</span> <span style=color:#a6e22e>_</span>, <span style=color:#a6e22e>err</span> <span style=color:#f92672>:=</span> <span style=color:#a6e22e>doThing</span>(); <span style=color:#a6e22e>err</span> <span style=color:#f92672>!=</span> <span style=color:#66d9ef>nil</span> {
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>fmt</span>.<span style=color:#a6e22e>Println</span>(<span style=color:#e6db74>&#34;Uh oh&#34;</span>)
+</span></span></code></pre></div></div></div></div></div><div class=note-card>
 <div class=item>
-<h5 class=note-title><span>Switch</span></h5>
-<div class=card>
-<div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=color:#66d9ef>switch</span> <span style=color:#a6e22e>day</span> {
-  <span style=color:#66d9ef>case</span> <span style=color:#e6db74>&#34;sunday&#34;</span>:
-    <span style=color:#75715e>// cases don&#39;t &#34;fall through&#34; by default!
-</span><span style=color:#75715e></span>    <span style=color:#66d9ef>fallthrough</span>
-
-  <span style=color:#66d9ef>case</span> <span style=color:#e6db74>&#34;saturday&#34;</span>:
-    <span style=color:#a6e22e>rest</span>()
-
-  <span style=color:#66d9ef>default</span>:
-    <span style=color:#a6e22e>work</span>()
-}
-</code></pre></div></div>
-</div>
-</div>
-</div>
-<div class=note-card>
+<h5 class=note-title><span>Switch</span></h5><div class=card>
+<div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=display:flex><span><span style=color:#66d9ef>switch</span> <span style=color:#a6e22e>day</span> {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>case</span> <span style=color:#e6db74>&#34;sunday&#34;</span>:
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// cases don&#39;t &#34;fall through&#34; by default!
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    <span style=color:#66d9ef>fallthrough</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>case</span> <span style=color:#e6db74>&#34;saturday&#34;</span>:
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>rest</span>()
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>default</span>:
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>work</span>()
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div></div></div></div></div><div class=note-card>
 <div class=item>
-<h5 class=note-title><span>Loop</span></h5>
-<div class=card>
-<div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=color:#66d9ef>for</span> <span style=color:#a6e22e>count</span> <span style=color:#f92672>:=</span> <span style=color:#ae81ff>0</span>; <span style=color:#a6e22e>count</span> <span style=color:#f92672>&lt;=</span> <span style=color:#ae81ff>10</span>; <span style=color:#a6e22e>count</span><span style=color:#f92672>++</span> {
-  <span style=color:#a6e22e>fmt</span>.<span style=color:#a6e22e>Println</span>(<span style=color:#e6db74>&#34;My counter is at&#34;</span>, <span style=color:#a6e22e>count</span>)
-}
-</code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=color:#a6e22e>entry</span> <span style=color:#f92672>:=</span> []<span style=color:#66d9ef>string</span>{<span style=color:#e6db74>&#34;Jack&#34;</span>,<span style=color:#e6db74>&#34;John&#34;</span>,<span style=color:#e6db74>&#34;Jones&#34;</span>}
-<span style=color:#66d9ef>for</span> <span style=color:#a6e22e>i</span>, <span style=color:#a6e22e>val</span> <span style=color:#f92672>:=</span> <span style=color:#66d9ef>range</span> <span style=color:#a6e22e>entry</span> {
-  <span style=color:#a6e22e>fmt</span>.<span style=color:#a6e22e>Printf</span>(<span style=color:#e6db74>&#34;At position %d, the character %s is present\n&#34;</span>, <span style=color:#a6e22e>i</span>, <span style=color:#a6e22e>val</span>)
-</code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=color:#a6e22e>n</span> <span style=color:#f92672>:=</span> <span style=color:#ae81ff>0</span>
-<span style=color:#a6e22e>x</span> <span style=color:#f92672>:=</span> <span style=color:#ae81ff>42</span>
-<span style=color:#66d9ef>for</span> <span style=color:#a6e22e>n</span> <span style=color:#f92672>!=</span> <span style=color:#a6e22e>x</span> {
-  <span style=color:#a6e22e>n</span> <span style=color:#f92672>:=</span> <span style=color:#a6e22e>guess</span>()
-}
-</code></pre></div></div>
-</div>
-</div>
-</div>
-<div class=note-card>
+<h5 class=note-title><span>Loop</span></h5><div class=card>
+<div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=display:flex><span><span style=color:#66d9ef>for</span> <span style=color:#a6e22e>count</span> <span style=color:#f92672>:=</span> <span style=color:#ae81ff>0</span>; <span style=color:#a6e22e>count</span> <span style=color:#f92672>&lt;=</span> <span style=color:#ae81ff>10</span>; <span style=color:#a6e22e>count</span><span style=color:#f92672>++</span> {
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>fmt</span>.<span style=color:#a6e22e>Println</span>(<span style=color:#e6db74>&#34;My counter is at&#34;</span>, <span style=color:#a6e22e>count</span>)
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=display:flex><span><span style=color:#a6e22e>entry</span> <span style=color:#f92672>:=</span> []<span style=color:#66d9ef>string</span>{<span style=color:#e6db74>&#34;Jack&#34;</span>,<span style=color:#e6db74>&#34;John&#34;</span>,<span style=color:#e6db74>&#34;Jones&#34;</span>}
+</span></span><span style=display:flex><span><span style=color:#66d9ef>for</span> <span style=color:#a6e22e>i</span>, <span style=color:#a6e22e>val</span> <span style=color:#f92672>:=</span> <span style=color:#66d9ef>range</span> <span style=color:#a6e22e>entry</span> {
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>fmt</span>.<span style=color:#a6e22e>Printf</span>(<span style=color:#e6db74>&#34;At position %d, the character %s is present\n&#34;</span>, <span style=color:#a6e22e>i</span>, <span style=color:#a6e22e>val</span>)
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=display:flex><span><span style=color:#a6e22e>n</span> <span style=color:#f92672>:=</span> <span style=color:#ae81ff>0</span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>x</span> <span style=color:#f92672>:=</span> <span style=color:#ae81ff>42</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>for</span> <span style=color:#a6e22e>n</span> <span style=color:#f92672>!=</span> <span style=color:#a6e22e>x</span> {
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>n</span> <span style=color:#f92672>:=</span> <span style=color:#a6e22e>guess</span>()
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div></div></div></div></div><div class=note-card>
 <div class=item>
-<h5 class=note-title><span>Condition</span></h5>
-<div class=card>
-<div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=color:#66d9ef>if</span> <span style=color:#a6e22e>day</span> <span style=color:#f92672>==</span> <span style=color:#e6db74>&#34;sunday&#34;</span> <span style=color:#f92672>||</span> <span style=color:#a6e22e>day</span> <span style=color:#f92672>==</span> <span style=color:#e6db74>&#34;saturday&#34;</span> {
-  <span style=color:#a6e22e>rest</span>()
-} <span style=color:#66d9ef>else</span> <span style=color:#66d9ef>if</span> <span style=color:#a6e22e>day</span> <span style=color:#f92672>==</span> <span style=color:#e6db74>&#34;monday&#34;</span> <span style=color:#f92672>&amp;&amp;</span> <span style=color:#a6e22e>isTired</span>() {
-  <span style=color:#a6e22e>groan</span>()
-} <span style=color:#66d9ef>else</span> {
-  <span style=color:#a6e22e>work</span>()
-}
-</code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=color:#66d9ef>if</span> <span style=color:#a6e22e>_</span>, <span style=color:#a6e22e>err</span> <span style=color:#f92672>:=</span> <span style=color:#a6e22e>doThing</span>(); <span style=color:#a6e22e>err</span> <span style=color:#f92672>!=</span> <span style=color:#66d9ef>nil</span> {
-  <span style=color:#a6e22e>fmt</span>.<span style=color:#a6e22e>Println</span>(<span style=color:#e6db74>&#34;Uh oh&#34;</span>)
-</code></pre></div></div>
-</div>
-</div>
-</div>
-<div class=note-card>
+<h5 class=note-title><span>Condition</span></h5><div class=card>
+<div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=display:flex><span><span style=color:#66d9ef>if</span> <span style=color:#a6e22e>day</span> <span style=color:#f92672>==</span> <span style=color:#e6db74>&#34;sunday&#34;</span> <span style=color:#f92672>||</span> <span style=color:#a6e22e>day</span> <span style=color:#f92672>==</span> <span style=color:#e6db74>&#34;saturday&#34;</span> {
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>rest</span>()
+</span></span><span style=display:flex><span>} <span style=color:#66d9ef>else</span> <span style=color:#66d9ef>if</span> <span style=color:#a6e22e>day</span> <span style=color:#f92672>==</span> <span style=color:#e6db74>&#34;monday&#34;</span> <span style=color:#f92672>&amp;&amp;</span> <span style=color:#a6e22e>isTired</span>() {
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>groan</span>()
+</span></span><span style=display:flex><span>} <span style=color:#66d9ef>else</span> {
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>work</span>()
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go data-lang=go><span style=display:flex><span><span style=color:#66d9ef>if</span> <span style=color:#a6e22e>_</span>, <span style=color:#a6e22e>err</span> <span style=color:#f92672>:=</span> <span style=color:#a6e22e>doThing</span>(); <span style=color:#a6e22e>err</span> <span style=color:#f92672>!=</span> <span style=color:#66d9ef>nil</span> {
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>fmt</span>.<span style=color:#a6e22e>Println</span>(<span style=color:#e6db74>&#34;Uh oh&#34;</span>)
+</span></span></code></pre></div></div></div></div></div><div class=note-card>
 <div class=item>
-<h5 class=note-title><span>Variable</span></h5>
-<div class=card>
-<div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>NAME<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;John&#34;</span>
-echo $NAME
-echo <span style=color:#e6db74>&#34;</span>$NAME<span style=color:#e6db74>&#34;</span>
-echo <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>NAME<span style=color:#e6db74>}</span><span style=color:#e6db74>
-</span></code></pre></div></div>
-</div>
-</div>
-</div>
-<div class=note-card>
+<h5 class=note-title><span>Variable</span></h5><div class=card>
+<div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>NAME<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;John&#34;</span>
+</span></span><span style=display:flex><span>echo $NAME
+</span></span><span style=display:flex><span>echo <span style=color:#e6db74>&#34;</span>$NAME<span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>echo <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>NAME<span style=color:#e6db74>}</span><span style=color:#e6db74>
+</span></span></span></code></pre></div></div></div></div></div><div class=note-card>
 <div class=item>
-<h5 class=note-title><span>Condition</span></h5>
-<div class=card>
-<div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=color:#66d9ef>if</span> <span style=color:#f92672>[[</span> -z <span style=color:#e6db74>&#34;</span>$string<span style=color:#e6db74>&#34;</span> <span style=color:#f92672>]]</span>; <span style=color:#66d9ef>then</span>
-  echo <span style=color:#e6db74>&#34;String is empty&#34;</span>
-<span style=color:#66d9ef>elif</span> <span style=color:#f92672>[[</span> -n <span style=color:#e6db74>&#34;</span>$string<span style=color:#e6db74>&#34;</span> <span style=color:#f92672>]]</span>; <span style=color:#66d9ef>then</span>
-  echo <span style=color:#e6db74>&#34;String is not empty&#34;</span>
-<span style=color:#66d9ef>fi</span>
-</code></pre></div></div>
-</div>
-</div>
-</div>
-</div>
-<div class=paginator>
+<h5 class=note-title><span>Condition</span></h5><div class=card>
+<div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#66d9ef>if</span> <span style=color:#f92672>[[</span> -z <span style=color:#e6db74>&#34;</span>$string<span style=color:#e6db74>&#34;</span> <span style=color:#f92672>]]</span>; <span style=color:#66d9ef>then</span>
+</span></span><span style=display:flex><span>  echo <span style=color:#e6db74>&#34;String is empty&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>elif</span> <span style=color:#f92672>[[</span> -n <span style=color:#e6db74>&#34;</span>$string<span style=color:#e6db74>&#34;</span> <span style=color:#f92672>]]</span>; <span style=color:#66d9ef>then</span>
+</span></span><span style=display:flex><span>  echo <span style=color:#e6db74>&#34;String is not empty&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>fi</span>
+</span></span></code></pre></div></div></div></div></div></div><div class=paginator>
 <ul class="pagination pagination-default">
 <li class="page-item disabled">
-<a href=# aria-disabled=true aria-label=First class=page-link role=button tabindex=-1><span aria-hidden=true>&#171;&#171;</span></a>
-</li>
-<li class="page-item disabled">
-<a href=# aria-disabled=true aria-label=Previous class=page-link role=button tabindex=-1><span aria-hidden=true>&#171;</span></a>
-</li>
-<li class="page-item active">
-<a href=# aria-current=page aria-label="Page 1" class=page-link role=button>1</a>
-</li>
-<li class=page-item>
+<a aria-disabled=true aria-label=First class=page-link role=button tabindex=-1><span aria-hidden=true>&#171;&#171;</span></a>
+</li><li class="page-item disabled">
+<a aria-disabled=true aria-label=Previous class=page-link role=button tabindex=-1><span aria-hidden=true>&#171;</span></a>
+</li><li class="page-item active">
+<a aria-current=page aria-label="Page 1" class=page-link role=button>1</a>
+</li><li class=page-item>
 <a href=/notes/page/2/ aria-label="Page 2" class=page-link role=button>2</a>
-</li>
-<li class=page-item>
+</li><li class=page-item>
 <a href=/notes/page/2/ aria-label=Next class=page-link role=button><span aria-hidden=true>&#187;</span></a>
-</li>
-<li class=page-item>
+</li><li class=page-item>
 <a href=/notes/page/2/ aria-label=Last class=page-link role=button><span aria-hidden=true>&#187;&#187;</span></a>
-</li>
-</ul>
-</div>
-</div>
-</section>
-</div>
-<footer class="container-fluid text-center align-content-center footer pb-2">
+</li></ul></div></div></section></div><footer id=footer class="container-fluid text-center align-content-center footer pb-2">
 <div class="container pt-5">
 <div class="row text-left">
 <div class="col-md-4 col-sm-12">
-<h5>Navigation</h5>
-<ul>
+<h5>Navigation</h5><ul>
 <li class=nav-item>
 <a class=smooth-scroll href=https://xushaoxiao.github.io/#about>About</a>
-</li>
-<li class=nav-item>
+</li><li class=nav-item>
 <a class=smooth-scroll href=https://xushaoxiao.github.io/#skills>Skills</a>
-</li>
-<li class=nav-item>
+</li><li class=nav-item>
 <a class=smooth-scroll href=https://xushaoxiao.github.io/#experiences>Experiences</a>
-</li>
-<li class=nav-item>
+</li><li class=nav-item>
 <a class=smooth-scroll href=https://xushaoxiao.github.io/#education>Education</a>
-</li>
-<li class=nav-item>
+</li><li class=nav-item>
 <a class=smooth-scroll href=https://xushaoxiao.github.io/#projects>Projects</a>
-</li>
-<li class=nav-item>
+</li><li class=nav-item>
 <a class=smooth-scroll href=https://xushaoxiao.github.io/#recent-posts>Recent Posts</a>
-</li>
-<li class=nav-item>
+</li><li class=nav-item>
 <a class=smooth-scroll href=https://xushaoxiao.github.io/#accomplishments>Accomplishments</a>
-</li>
-<li class=nav-item>
+</li><li class=nav-item>
 <a class=smooth-scroll href=https://xushaoxiao.github.io/#achievements>Achievements</a>
-</li>
-</ul>
-</div>
-<div class="col-md-4 col-sm-12">
-<h5>Contact me:</h5>
-<ul>
-<li><span>Email: </span> <span>lancexu.hello@gmail.com</span></li>
-<li><span>Phone: </span> <span>+86 13554225105</span></li>
-</ul>
-</div>
-</div>
-</div>
-<hr>
+</li></ul></div><div class="col-md-4 col-sm-12">
+<h5>Contact me:</h5><ul>
+<li><a href=mailto:lancexu.hello@gmail.com target=_blank rel=noopener>
+<span><i class="fas fa-envelope"></i></span> <span>lancexu.hello@gmail.com</span>
+</a></li><li><span><i class="fas fa-phone-alt"></i></span> <span>+86 13554225105</span></li></ul></div></div></div><hr>
 <div class=container>
-<p id=disclaimer><strong>Liability Notice:</strong> This theme is under MIT license. So, you can use it for non-commercial, commercial, or private uses. You can modify or distribute the theme without requiring any permission from the theme author. However, the theme author does not provide any warranty or takes any liability for any issue with the theme.</p>
-</div>
-<hr>
+<p id=disclaimer><strong>Liability Notice:</strong> This theme is under MIT license. So, you can use it for non-commercial, commercial, or private uses. You can modify or distribute the theme without requiring any permission from the theme author. However, the theme author does not provide any warranty or takes any liability for any issue with the theme.</p></div><hr>
 <div class=container>
 <div class="row text-left">
 <div class=col-md-4>
@@ -1187,25 +554,20 @@ echo <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>NA
 <img src=/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_3.png alt="Toha Theme Logo">
 Toha
 </a>
-</div>
-<div class="col-md-4 text-center">© 2021 Copyright.</div>
-<div class="col-md-4 text-right">
+</div><div class="col-md-4 text-center">© 2021 Copyright.</div><div class="col-md-4 text-right">
 <a id=hugo href=https://gohugo.io/ target=_blank rel=noopener>Powered by
 <img src=/images/hugo-logo.svg alt="Hugo Logo" height=18>
 </a>
-</div>
-</div>
-</div>
-</footer>
-<script type=text/javascript src=/js/jquery-3.4.1.min.js></script>
+</div></div></div></footer><script type=text/javascript src=/js/jquery-3.4.1.min.js></script>
 <script type=text/javascript src=/js/popper.min.js></script>
 <script type=text/javascript src=/js/bootstrap.min.js></script>
 <script type=text/javascript src=/js/navbar.js></script>
 <script type=text/javascript src=/js/plyr.js></script>
 <script type=text/javascript src=/js/main.js></script>
+<script type=text/javascript defer src=/js/katex.min.js></script>
+<script type=text/javascript defer src=/js/auto-render.min.js onload=renderMathInElement(document.body)></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js></script>
 <script src=/js/imagesloaded.pkgd.min.js></script>
 <script src=/js/note.js></script>
 <script>hljs.initHighlightingOnLoad()</script>
-</body>
-</html>
+</body></html>
